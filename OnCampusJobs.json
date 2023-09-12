@@ -1,0 +1,104 @@
+{
+  "id": "9eca9727-b2f9-4bd3-9b29-323d440be332",
+  "name": "OnCampusJobs",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Yes, You can find the jobs in Campus Dining, Graduate Assistantship/ Teaching Assistantship, Parking Assistant, Librarian, Shuttle Drivers etc...",
+            "Certainly, there are job openings available in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and Shuttle Driving, among other options.",
+            "Indeed, you'll discover employment opportunities in areas like Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driving.",
+            "You'll find job prospects within Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other possibilities."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me about the employment possibilities for students on campus?",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "a9733f36-e7ba-44e7-b590-33e6100fb6a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any job openings for students within the university?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "32fec95b-299f-4cff-ba15-647f2fe08244",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the available job positions for students who want to work on campus?",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "8c2b138f-728f-41f6-a89c-93e9d0ad44e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What on-campus job options are there for students?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7e9216b-92be-41f5-b485-d3aa44e8efb4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the job opportunities available for students in on campus?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "415660bb-0285-4066-9308-81ad5815fc85",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
