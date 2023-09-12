@@ -1,0 +1,155 @@
+{
+  "id": "bc2c92fa-e516-4dd3-a89b-48b6870f9b0d",
+  "name": "TuitionFee",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "$16,802.20",
+            "Total Graduate Cost for ACS is $16,802.20",
+            "The complete cost for the ACS graduate program amounts to $16,802.20.",
+            "The ACS graduate program entails a total cost of $16,802.20",
+            "The overall expense for the ACS graduate program is $16,802.20.",
+            "For the ACS graduate program, the total financial commitment is $16,802.20.",
+            "Students pursuing the ACS program should budget for a sum of $16,802.20."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a payment schedule or installment plan for managing the graduate program's expenses?\"",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8f09ceb1-14f0-415c-86e4-d0ee04ccc9d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What resources or guidance are available to help graduate students with financial planning and budgeting?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38261564-cfcd-465a-8129-c5805bc4e93f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any additional fees or expenses beyond tuition that I should consider when calculating the cost?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f73473f5-7de8-4550-abf8-a1036cce23e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do the tuition fees differ for in-state and out-of-state graduate students?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5822d1c7-5d4c-43f6-ae44-49a97eee375f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you break down the components that contribute to the overall graduate cost?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "344f148d-f463-4cee-b5f0-041a36bbc0c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Are there any scholarships or financial aid options available to help offset the graduate program's cost?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "593943d2-be2a-404b-93a2-bf619a5e6aa3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the expected financial commitment for pursuing a graduate degree?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85c4da0e-3af5-409b-b518-c292e7a5f136",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Could you provide an estimate of the total expenses for graduate studies?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13322ffd-a429-4d82-8356-0ee7febf1f9f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the Estimated Graduate Cost?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4510cdd-bfa0-4241-82f1-f3d665f0f0e9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
