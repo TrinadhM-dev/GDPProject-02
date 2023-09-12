@@ -1,0 +1,77 @@
+{
+  "id": "826b469f-5bce-4c23-978d-a3127b4dcf28",
+  "name": "RequiredGPA",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The GPA should be above or Equal to 3.0"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a specific GPA cutoff for gaining admission to the ACS Course?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afe7f358-f32e-4498-90b4-047f68630d48",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the GPA threshold for enrolling in the ACS Course?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09bb5db5-09f5-4a5b-99b7-4e59ac6d938b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the required GPA to get admission in ACS Course?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e0bf035a-f6bb-4506-aa9a-4457364bd95c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
