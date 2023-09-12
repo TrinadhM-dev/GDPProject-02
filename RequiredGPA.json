@@ -25,7 +25,11 @@
           "type": "message",
           "condition": "",
           "speech": [
-            "The GPA should be above or Equal to 3.0"
+            "The GPA should be above or Equal to 3.0",
+            "A GPA of 3.0 and above is necessary.",
+            "Your GPA should meet or exceed 3.0.",
+            "You must have a GPA of 3.0 or greater.",
+            "To be eligible, your GPA needs to be 3.0 or more."
           ]
         }
       ],
@@ -35,6 +39,42 @@
   "rootParentId": null,
   "templates": [],
   "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What GPA is considered acceptable for gaining admission to an ACS Course?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01fbd6ac-c1a0-42bd-8342-9b8d0bfa4db4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there a specific GPA requirement for entry into an ACS Course?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "421afb27-5490-4756-9d14-c1ff3563a592",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the minimum GPA required for admission to an ACS Course?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9bcd258-a7d0-45f7-96fa-b3d9815bb076",
+      "updated": null
+    },
     {
       "isTemplate": false,
       "data": [
