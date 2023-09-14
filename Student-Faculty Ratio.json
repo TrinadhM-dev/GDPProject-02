@@ -1,0 +1,168 @@
+{
+  "id": "8663bb25-c664-4d06-9581-49d394817c18",
+  "name": "Student-Faculty Ratio",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The student-to-faculty ratio is 19 to 1",
+            "For every 19 students, there is one faculty member",
+            "There are 19 students per instructor",
+            "The ratio of students to faculty is 19:1",
+            "In terms of student-to-faculty, it's 19:1",
+            "The ratio of students to instructors stands at 19 students for every one faculty member.",
+            "There is one faculty member for every 19 students as per the ratio",
+            "In the ratio, there are 19 students corresponding to one faculty member."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me the usual student-to-professor ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "159e79ab-945c-4e7b-8f85-21401cce98ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the average student-to-faculty proportion?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7a5a471-ce52-402b-b931-5d15f3055094",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the customary number of students per professor?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60e4e76e-a121-4399-a03e-63fd07c97633",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the standard student-to-professor ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "210a65f5-0768-4674-b5d6-4c9fd0970433",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the typical student-to-faculty ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "32370bd6-bc79-4e78-86f6-070d5d0c43ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the average number of students per professor?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72d204ce-5f3f-4a06-a05f-7dc7b15b0ab1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you provide information on the student-to-faculty ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6707b125-862b-4e3e-b728-c602cf56d537",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How many students are there for each faculty member?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b7b41be-a4eb-4b11-b96e-824c9f12f0ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the ratio of students to faculty members at this institution?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d72e20c-7cea-4609-ba72-862d83dc94df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the student-to-faculty ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "651fea1f-7b9e-4a69-91b1-a0567b32b7e6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

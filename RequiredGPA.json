@@ -43,6 +43,30 @@
       "isTemplate": false,
       "data": [
         {
+          "text": "What is the required GPA ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0216e2e1-6581-4538-8d4b-05f65a52ca38",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Required GPA for admission in ACS?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1462fb28-bbe5-4cee-afd8-5546cc3c7eb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
           "text": "What GPA is considered acceptable for gaining admission to an ACS Course?",
           "userDefined": false
         }
