@@ -61,7 +61,7 @@
           "userDefined": false
         }
       ],
-      "count": 0,
+      "count": 5,
       "id": "38261564-cfcd-465a-8129-c5805bc4e93f",
       "updated": null
     },
@@ -70,7 +70,7 @@
       "data": [
         {
           "text": "Are there any additional fees or expenses beyond tuition that I should consider when calculating the cost?",
-          "userDefined": false
+          "userDefined": true
         }
       ],
       "count": 0,
@@ -151,5 +151,6 @@
     }
   ],
   "webhookForSlotFilling": false,
-  "webhookUsed": false
+  "webhookUsed": false,
+  "webServers": true
 }
