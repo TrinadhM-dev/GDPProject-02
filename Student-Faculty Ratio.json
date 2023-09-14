@@ -29,7 +29,10 @@
             "For every 19 students, there is one faculty member",
             "There are 19 students per instructor",
             "The ratio of students to faculty is 19:1",
-            "In terms of student-to-faculty, it's 19:1"
+            "In terms of student-to-faculty, it's 19:1",
+            "The ratio of students to instructors stands at 19 students for every one faculty member.",
+            "There is one faculty member for every 19 students as per the ratio",
+            "In the ratio, there are 19 students corresponding to one faculty member."
           ]
         }
       ],
@@ -39,6 +42,66 @@
   "rootParentId": null,
   "templates": [],
   "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me the usual student-to-professor ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "159e79ab-945c-4e7b-8f85-21401cce98ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the average student-to-faculty proportion?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7a5a471-ce52-402b-b931-5d15f3055094",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the customary number of students per professor?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60e4e76e-a121-4399-a03e-63fd07c97633",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the standard student-to-professor ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "210a65f5-0768-4674-b5d6-4c9fd0970433",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the typical student-to-faculty ratio?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "32370bd6-bc79-4e78-86f6-070d5d0c43ae",
+      "updated": null
+    },
     {
       "isTemplate": false,
       "data": [
