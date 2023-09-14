@@ -102,6 +102,18 @@
         "isTemplate": false,
         "data": [
           {
+            "text": "What is the due date for applying to the Spring Intake?",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "4525c722-021d-4392-8c8f-a3b5058f811b",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
             "text": "When is the Spring Intake application deadline?",
             "userDefined": false
           }
