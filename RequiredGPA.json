@@ -29,7 +29,12 @@
             "A GPA of 3.0 and above is necessary.",
             "Your GPA should meet or exceed 3.0.",
             "You must have a GPA of 3.0 or greater.",
-            "To be eligible, your GPA needs to be 3.0 or more."
+            "To be eligible, your GPA needs to be 3.0 or more.",
+            "The GPA must meet or exceed 3.0.",
+            "A GPA of 3.0 or greater is expected.",
+            "Maintaining a GPA of 3.0 or above is necessary.",
+            "Your GPA should be at least 3.0.",
+            "A minimum GPA of 3.0 is required."
           ]
         }
       ],
