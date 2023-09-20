@@ -1,140 +1,133 @@
 {
-    "id": "65931124-15eb-43cc-9299-c42a2e685ce3",
-    "name": "DeadlinesForSpringIntake",
-    "auto": true,
-    "condition": "",
-    "conditionalFollowupEvents": [],
-    "conditionalResponses": [],
-    "context": [],
-    "contexts": [],
-    "endInteraction": false,
-    "events": [],
-    "fallbackIntent": false,
-    "liveAgentHandoff": false,
-    "parentId": null,
-    "followUpIntents": [],
-    "priority": 500000,
-    "responses": [
-      {
-        "action": "",
-        "affectedContexts": [],
-        "parameters": [],
-        "defaultResponsePlatforms": {},
-        "messages": [
-          {
-            "type": "message",
-            "condition": "",
-            "speech": [
-              "November 1",
-              "The first day of November",
-              "11/01",
-              "November the first",
-              "The start of November",
-              "The beginning of November"
-            ]
-          }
-        ],
-        "resetContexts": false
-      }
-    ],
-    "rootParentId": null,
-    "templates": [],
-    "userSays": [
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "What's the last day to apply for the ",
-            "userDefined": false
-          },
-          {
-            "text": "Spring",
-            "userDefined": false,
-            "meta": "@sys.ignore",
-            "alias": null
-          },
-          {
-            "text": " semester?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "266f1065-5e46-4724-81a4-83b04551cd05",
-        "updated": null
-      },
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "By when should I have my Spring Intake application completed?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "c90bf15c-a7ff-4663-b434-d81aa932b0c3",
-        "updated": null
-      },
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "What's the cutoff date for Spring Intake applications?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "8695edde-fb04-4824-b0e3-33ffdaf7f814",
-        "updated": null
-      },
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "What is the due date for applying to the Spring Intake?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "4525c722-021d-4392-8c8f-a3b5058f811b",
-        "updated": null
-      },
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "What is the due date for applying to the Spring Intake?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "4525c722-021d-4392-8c8f-a3b5058f811b",
-        "updated": null
-      },
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "When is the Spring Intake application deadline?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "d6ea2e9e-7bbd-43e8-8af2-6902c72f41e4",
-        "updated": null
-      },
-      {
-        "isTemplate": false,
-        "data": [
-          {
-            "text": "What is the Deadline for Spring Intake?",
-            "userDefined": false
-          }
-        ],
-        "count": 0,
-        "id": "f0504f13-0f8c-4cce-977f-f1e0b83de0d5",
-        "updated": null
-      }
-    ],
-    "webhookForSlotFilling": false,
-    "webhookUsed": false
-  }
+  "id": "65931124-15eb-43cc-9299-c42a2e685ce3",
+  "name": "DeadlinesForSpringIntake",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "November 1",
+            "The first day of November",
+            "11/01",
+            "November the first",
+            "The start of November",
+            "The beginning of November",
+            "One November",
+            "November 1st",
+            "01/11 (in some date formats)",
+            "Nov 1",
+            "1st of November"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the last day to apply for the ",
+          "userDefined": false
+        },
+        {
+          "text": "Spring",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " semester?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "266f1065-5e46-4724-81a4-83b04551cd05",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "By when should I have my Spring Intake application completed?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c90bf15c-a7ff-4663-b434-d81aa932b0c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the cutoff date for Spring Intake applications?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8695edde-fb04-4824-b0e3-33ffdaf7f814",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the due date for applying to the Spring Intake?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4525c722-021d-4392-8c8f-a3b5058f811b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When is the Spring Intake application deadline?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6ea2e9e-7bbd-43e8-8af2-6902c72f41e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the Deadline for Spring Intake?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0504f13-0f8c-4cce-977f-f1e0b83de0d5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
