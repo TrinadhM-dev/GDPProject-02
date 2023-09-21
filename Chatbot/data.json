@@ -1,0 +1,51 @@
+{"ourIntents": [
+            {
+                "tag": "Welcome",
+                "patterns": [
+                    "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see","hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy", "hello","hola","how are you"
+                ],
+                "responses": [
+                    "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?","Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!"
+                ]
+            },
+            {
+                "tag":"CourseOverview",
+                "patterns":[
+                    "Tell me about the Computer Science program.","Please Tell me about the course overview.","What's the general course overview?","Can you provide a summary of the course content?","please provide me course overview.","Tell me about the course overview","Tell me about the course","course overview","Please provide course overview","credit hours required?","tell me about the course overview","course overview","tell the course curriculum"
+                ],
+                "responses":[
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science is a 16-month program that offers a hands-on, professional education in today's high demand areas.","A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages."
+                ]
+            },
+            {
+                "tag":"ACSProfessors",
+                "patterns":[
+                    "Provide the names of some instructors that are in ACS Course.","Who are the lecturers present in MS ACS?","Who are the professors for MS ACS Course?","Tell me the names of Professors, Who teaches in MS ACS?","Who are the lecturers present in MS ACS?","Tell me the names of Professors, Who teaches in MS ACS?","who are lecturers present in MS ACS?","provide the names of some instructors that are in ACS Course.",
+                    "Who are lectures that teach in ACS Program?","who are the professors","Who are lecturers that teach in ACS Program?","who teaches in MS ACS Course","provide the names of some instructors that are in ACS Course","who are instructors in ACS Course?","professors","instructors in acs course"
+                ],
+                "responses":[
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli","Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli","Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
+                ]
+            },
+            {
+                "tag":"CreditHours",
+                "patterns":[
+                    "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?","credit hours required?","credit hours needed","credit hours",
+                    "how many credit hours required?","how many credit hours","credit hours needed?","credit hours required","what are credit hours"
+                ],
+                "responses":[
+                    "Thirty credit hours of graduate credits are required for completion of the M.S. in Applied Computer Science.","30 Credit Hours are needed to graduate from MS in ACS program."
+                ]
+            },
+            {
+                "tag":"TuitionFee",
+                "patterns":[
+                    "Is there a payment schedule or installment plan for managing the graduate program's expenses?","What resources or guidance are available to help graduate students with financial planning and budgeting?","Are there any additional fees or expenses beyond tuition that I should consider when calculating the cost?","Do the tuition fees differ for in-state and out-of-state graduate students?","Can you break down the components that contribute to the overall graduate cost?","Are there any scholarships or financial aid options available to help offset the graduate program's cost?","What is the expected financial commitment for pursuing a graduate degree?","Could you provide an estimate of the total expenses for graduate studies?","What is the Estimated Graduate Cost?"
+                ],
+                "responses":[
+                    "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.","The ACS graduate program entails a total cost of $16,802.20","The overall expense for the ACS graduate program is $16,802.20.","For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20."
+                ]
+            }
+]
+
+}
