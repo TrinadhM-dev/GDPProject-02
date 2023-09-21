@@ -1,4 +1,4 @@
-{"ourIntents": [
+{"intents": [
             {
                 "tag": "Welcome",
                 "patterns": [
@@ -44,6 +44,15 @@
                 ],
                 "responses":[
                     "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.","The ACS graduate program entails a total cost of $16,802.20","The overall expense for the ACS graduate program is $16,802.20.","For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20."
+                ]
+            },
+            {
+                "tag":"Intakes",
+                "patterns":[
+                    "How many intakes are there in MS ACS Program?","How many intakes","no of intakes","number of intakes","Number of intakes in a year?","How many intakes are there in MS ACS Course?"
+                ],
+                "responses":[
+                    "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).","Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.","Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.","New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.","In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference."
                 ]
             }
 ]
