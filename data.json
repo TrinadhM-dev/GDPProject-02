@@ -5,7 +5,7 @@
                     "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see","hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy", "hello","hola","how are you"
                 ],
                 "responses": [
-                    "https://en.wikipedia.org/wiki/Hello_(Adele_song)"
+                    "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?","Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!"
                 ]
             },
             {
@@ -53,6 +53,16 @@
                 ],
                 "responses":[
                     "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).","Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.","Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.","New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.","In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference."
+                ]
+            },
+            {
+                "tag":"ACSCourses",
+                "patterns":[
+                    "What are the Courses in MS ACS Course?","Provide information about the MS ACS Program's course selection.","What are the study areas covered in the MS ACS Program?","Which courses can I take as part of the MS ACS Program?","Share the MS ACS Program course catalog with me.","I'd like to know the course offerings in the MS ACS Program.","Give me details about the academic courses in the MS ACS Program.","What's the course lineup for the MS ACS Program?", "Tell me about the subjects included in the MS ACS Program.","What courses are part of the MS ACS Program curriculum?","Can you provide a list of the courses available in the MS ACS Program?","what are the courses in MS ACS Course?","course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?"
+                ],
+                "responses":[
+                    "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \\n\\n You can refer this link to know more about courses in ACS \\n\\n nhttps://www.nwmissouri.edu/csis/msacs/courses.htm  "
+                    
                 ]
             }
 ]
