@@ -64,7 +64,45 @@
                     "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  "
                     
                 ]
+            },
+            {
+                "tag":"Electives",
+                "patterns":[
+                    "Are there any specialized electives for MS-ACS students?"," program's elective curriculum.","I'm interested in electives for MS-ACS; could you share the options?","What's the range of elective courses available in MS-ACS?","Which elective courses can I select as part of the MS-ACS program?","Can you provide information on the electives students can take in MS-ACS?","What are the choices for electives in the MS-ACS program?","Tell me about the elective subjects offered for MS-ACS students.","Could you list the elective options within the MS-ACS program?","What elective courses are available in the MS-ACS program?","What can you tell me about elective courses in the MS ACS Program?","Could you inform me about the MS ACS Program's elective selection?",
+                    "share the elective course offerings within the MS "," Program's elective courses.","What are the elective subjects I can take in the MS ACS Program?","Tell me about the choices for electives in the MS ACS Program.","What elective options are available in the MS ACS Program?","Can you provide information about the elective courses in the MS ACS Program?","Electives","electives in acs course","choices for electives in ms acs program?","what are the choices for Electives in MS ACS Program?","share the options for electives in ms acs","What elective course are available in MS ACS Program","elective courses that i can take part of ","which elective courses can i select as part of the ms acs program","range of electives courses available in ","Elective course"
+                ],
+                "responses":[
+                    "The MS-ACS program provides a selection of electives, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Additionally, if a student chooses Mobile Computing: iOS as their required course, they have the option to take Mobile Computing: Android as an elective.                                                                Note: Elective courses are subjected to change every semester.",
+            "In the MS-ACS program, students can choose from various electives like Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Furthermore, if a student selects Mobile Computing: iOS as their core course, they can also opt for Mobile Computing: Android as an elective.                                                                            Note: Elective courses are subjected to change every semester.",
+            "Electives in the MS-ACS program encompass Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. For students who decide on Mobile Computing: iOS as their mandatory course, Mobile Computing: Android becomes an elective choice as well.                                                                                                                                Note: Elective courses are subjected to change every semester.",
+            "The MS-ACS program offers a range of electives, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Notably, students who pick Mobile Computing: iOS as their required course have the opportunity to take Mobile Computing: Android as an elective.                                                                                                Note: Elective courses are subjected to change every semester.",
+            "Within the MS-ACS program, you'll find elective options like Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. It's worth mentioning that students who enroll in Mobile Computing: iOS as their core course can also consider Mobile Computing: Android as an elective.                                                                           Note: Elective courses are subjected to change every semester.",
+            "The MS-ACS program offers a variety of elective courses, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. If a student opts for Mobile Computing: iOS as their core course, they have the flexibility to choose Mobile Computing: Android as an elective as well.                                                                                     Note: Elective courses are subjected to change every semester.",
+            "In the MS-ACS program, students can select from a range of electives such as Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Additionally, those who take Mobile Computing: iOS as their required course may also consider Mobile Computing: Android as an elective.                                                                            Note: Elective courses are subjected to change every semester.",
+            "Elective choices in the MS-ACS program encompass Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Notably, students who decide on Mobile Computing: iOS as their mandatory course can extend their expertise by selecting Mobile Computing: Android as an elective.                                                                                    Note: Elective courses are subjected to change every semester.",
+            "Within the MS-ACS program, students have the opportunity to explore elective courses like Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Furthermore, if a student's primary choice is Mobile Computing: iOS, they can complement their studies with Mobile Computing: Android as an  elective.                                                                                                                          Note: Elective courses are subjected to change every semester."
+
+                ]
+            },
+            {
+                "tag":"Prerequisites",
+                "patterns":[
+
+                            ],
+                "responses":[
+
+                ]
+            },
+            {
+                "tag":"RequiredGPA",
+                "patterns":[
+                    "What is the required GPA ?","Required GPA for admission in ACS?","What GPA is considered acceptable for gaining admission to an ACS Course?","Is there a specific GPA requirement for entry into an ACS Course?","What is the minimum GPA required for admission to an ACS Course?","Is there a specific GPA cutoff for gaining admission to the ACS Course?","What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?"
+                ],
+                "responses":[
+                    "The GPA should be above or Equal to 3.0","A GPA of 3.0 and above is necessary.","Your GPA should meet or exceed 3.0.","You must have a GPA of 3.0 or greater.","To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.","Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required."
+                ]
             }
+
 ]
 
 }
