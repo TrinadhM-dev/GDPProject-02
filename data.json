@@ -2,74 +2,125 @@
             {
                 "tag": "Welcome",
                 "patterns": [
-                    "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see","hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy", "hello","hola","how are you"
+                    "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see",
+                    "hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy","hola",
+                    "how are you"
                 ],
                 "responses": [
-                    "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?","Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!"
+                    "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?",
+                    "Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!"
+                ]
+            },
+            {
+                "tag": "FallBack",
+                "patterns": [],
+                "responses": [
+                    "I didn't get that. Can you say it again?","Sorry, could you say that again?","Sorry, I didn't get that. Can you rephrase?","I missed that, say that again?"
                 ]
             },
             {
                 "tag":"CourseOverview",
                 "patterns":[
-                    "Tell me about the Computer Science program.","Please Tell me about the course overview.","What's the general course overview?","Can you provide a summary of the course content?","please provide me course overview.","Tell me about the course overview","Tell me about the course","course overview","Please provide course overview","credit hours required?","tell me about the course overview","course overview","tell the course curriculum"
+                    "Tell me about the Computer Science program.","Please Tell me about the course overview.",
+                    "What's the general course overview?","Can you provide a summary of the course content?",
+                    "please provide me course overview.","Tell me about the course overview","Tell me about the course",
+                    "course overview","Please provide course overview","credit hours required?","tell me about the course overview",
+                    "course overview","tell the course curriculum"
                 ],
                 "responses":[
-                    "Northwest Missouri State University's Master of Science in Applied Computer Science is a 16-month program that offers a hands-on, professional education in today's high demand areas.","A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages."
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science is a 16-month program that offers a hands-on, professional education in today's high demand areas.",
+                    "A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages."
                 ]
             },
             {
                 "tag":"ACSProfessors",
                 "patterns":[
-                    "Provide the names of some instructors that are in ACS Course.","Who are the lecturers present in MS ACS?","Who are the professors for MS ACS Course?","Tell me the names of Professors, Who teaches in MS ACS?","Who are the lecturers present in MS ACS?","Tell me the names of Professors, Who teaches in MS ACS?","who are lecturers present in MS ACS?","provide the names of some instructors that are in ACS Course.",
-                    "Who are lectures that teach in ACS Program?","who are the professors","Who are lecturers that teach in ACS Program?","who teaches in MS ACS Course","provide the names of some instructors that are in ACS Course","who are instructors in ACS Course?","professors","instructors in acs course"
+                    "Provide the names of some instructors that are in ACS Course.","Who are the lecturers present in MS ACS?",
+                    "Who are the professors for MS ACS Course?","Tell me the names of Professors, Who teaches in MS ACS?",
+                    "Who are the lecturers present in MS ACS?","Tell me the names of Professors, Who teaches in MS ACS?",
+                    "who are lecturers present in MS ACS?","provide the names of some instructors that are in ACS Course.",
+                    "Who are lectures that teach in ACS Program?","who are the professors",
+                    "Who are lecturers that teach in ACS Program?","who teaches in MS ACS Course",
+                    "provide the names of some instructors that are in ACS Course","who are instructors in ACS Course?",
+                    "professors","instructors in acs course"
                 ],
                 "responses":[
-                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli","Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli","Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
                 ]
             },
             {
                 "tag":"CreditHours",
                 "patterns":[
-                    "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?","credit hours required?","credit hours needed","credit hours",
-                    "how many credit hours required?","how many credit hours","credit hours needed?","credit hours required","what are credit hours"
+                    "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?",
+                    "credit hours required?","credit hours needed","credit hours","how many credit hours required?","how many credit hours",
+                    "credit hours needed?","credit hours required","what are credit hours"
                 ],
                 "responses":[
-                    "Thirty credit hours of graduate credits are required for completion of the M.S. in Applied Computer Science.","30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours"
+                    "Thirty credit hours of graduate credits are required for completion of the M.S. in Applied Computer Science.",
+                    "30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours"
                 ]
             },
             {
                 "tag":"TuitionFee",
                 "patterns":[
-                    "Is there a payment schedule or installment plan for managing the graduate program's expenses?","What resources or guidance are available to help graduate students with financial planning and budgeting?","Are there any additional fees or expenses beyond tuition that I should consider when calculating the cost?","Do the tuition fees differ for in-state and out-of-state graduate students?","Can you break down the components that contribute to the overall graduate cost?","Are there any scholarships or financial aid options available to help offset the graduate program's cost?","What is the expected financial commitment for pursuing a graduate degree?","Could you provide an estimate of the total expenses for graduate studies?","What is the Estimated Graduate Cost?"
+                    "Is there a payment schedule or installment plan for managing the graduate program's expenses?",
+                    "What resources or guidance are available to help graduate students with financial planning and budgeting?",
+                    "Are there any additional fees or expenses beyond tuition that I should consider when calculating the cost?",
+                    "Do the tuition fees differ for in-state and out-of-state graduate students?",
+                    "Can you break down the components that contribute to the overall graduate cost?",
+                    "Are there any scholarships or financial aid options available to help offset the graduate program's cost?",
+                    "What is the expected financial commitment for pursuing a graduate degree?",
+                    "Could you provide an estimate of the total expenses for graduate studies?",
+                    "What is the Estimated Graduate Cost?"
                 ],
                 "responses":[
-                    "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.","The ACS graduate program entails a total cost of $16,802.20","The overall expense for the ACS graduate program is $16,802.20.","For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20."
+                    "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.",
+                    "The ACS graduate program entails a total cost of $16,802.20","The overall expense for the ACS graduate program is $16,802.20.",
+                    "For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20."
                 ]
             },
             {
                 "tag":"Intakes",
                 "patterns":[
-                    "How many intakes are there in MS ACS Program?","How many intakes","no of intakes","number of intakes","Number of intakes in a year?","How many intakes are there in MS ACS Course?"
+                    "How many intakes are there in MS ACS Program?","How many intakes","no of intakes","number of intakes",
+                    "Number of intakes in a year?","How many intakes are there in MS ACS Course?"
                 ],
                 "responses":[
-                    "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).","Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.","Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.","New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.","In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference."
+                    "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).",
+                    "Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.",
+                    "Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.",
+                    "New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.",
+                    "In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference."
                 ]
             },
             {
                 "tag":"ACSCourses",
                 "patterns":[
-                    "What are the Courses in MS ACS Course?","Provide information about the MS ACS Program's course selection.","What are the study areas covered in the MS ACS Program?","Which courses can I take as part of the MS ACS Program?","Share the MS ACS Program course catalog with me.","I'd like to know the course offerings in the MS ACS Program.","Give me details about the academic courses in the MS ACS Program.","What's the course lineup for the MS ACS Program?", "Tell me about the subjects included in the MS ACS Program.","What courses are part of the MS ACS Program curriculum?","Can you provide a list of the courses available in the MS ACS Program?","what are the courses in MS ACS Course?","course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?"
+                    "What are the Courses in MS ACS Course?","Provide information about the MS ACS Program's course selection.","What are the study areas covered in the MS ACS Program?",
+                    "Which courses can I take as part of the MS ACS Program?","Share the MS ACS Program course catalog with me.","I'd like to know the course offerings in the MS ACS Program.",
+                    "Give me details about the academic courses in the MS ACS Program.","What's the course lineup for the MS ACS Program?", "Tell me about the subjects included in the MS ACS Program.",
+                    "What courses are part of the MS ACS Program curriculum?","Can you provide a list of the courses available in the MS ACS Program?","what are the courses in MS ACS Course?",
+                    "course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?"
                 ],
                 "responses":[
-                    "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  "
+                    "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
+                    "The MS-ACS program provides a range of courses, including Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can explore subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and delve into emerging fields such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm ",
+                    "The MS-ACS program offers a comprehensive range of courses, encompassing Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing (iOS or Android), Application Design using Patterns And Frameworks, CS Graduate Directed Projects I and II, Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Mining \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  "
                     
                 ]
             },
             {
                 "tag":"Electives",
                 "patterns":[
-                    "Are there any specialized electives for MS-ACS students?"," program's elective curriculum.","I'm interested in electives for MS-ACS; could you share the options?","What's the range of elective courses available in MS-ACS?","Which elective courses can I select as part of the MS-ACS program?","Can you provide information on the electives students can take in MS-ACS?","What are the choices for electives in the MS-ACS program?","Tell me about the elective subjects offered for MS-ACS students.","Could you list the elective options within the MS-ACS program?","What elective courses are available in the MS-ACS program?","What can you tell me about elective courses in the MS ACS Program?","Could you inform me about the MS ACS Program's elective selection?",
-                    "share the elective course offerings within the MS "," Program's elective courses.","What are the elective subjects I can take in the MS ACS Program?","Tell me about the choices for electives in the MS ACS Program.","What elective options are available in the MS ACS Program?","Can you provide information about the elective courses in the MS ACS Program?","Electives","electives in acs course","choices for electives in ms acs program?","what are the choices for Electives in MS ACS Program?","share the options for electives in ms acs","What elective course are available in MS ACS Program","elective courses that i can take part of ","which elective courses can i select as part of the ms acs program","range of electives courses available in ","Elective course"
+                    "Are there any specialized electives for MS-ACS students?"," program's elective curriculum.","I'm interested in electives for MS-ACS; could you share the options?",
+                    "What's the range of elective courses available in MS-ACS?","Which elective courses can I select as part of the MS-ACS program?","Can you provide information on the electives students can take in MS-ACS?",
+                    "What are the choices for electives in the MS-ACS program?","Tell me about the elective subjects offered for MS-ACS students.","Could you list the elective options within the MS-ACS program?","What elective courses are available in the MS-ACS program?",
+                    "What can you tell me about elective courses in the MS ACS Program?","Could you inform me about the MS ACS Program's elective selection?","share the elective course offerings within the MS "," Program's elective courses.",
+                    "What are the elective subjects I can take in the MS ACS Program?","Tell me about the choices for electives in the MS ACS Program.","What elective options are available in the MS ACS Program?","Can you provide information about the elective courses in the MS ACS Program?",
+                    "Electives","electives in acs course","choices for electives in ms acs program?","what are the choices for Electives in MS ACS Program?","share the options for electives in ms acs","What elective course are available in MS ACS Program","elective courses that i can take part of ",
+                    "which elective courses can i select as part of the ms acs program","range of electives courses available in ","Elective course"
                 ],
                 "responses":[
                     "The MS-ACS program provides a selection of electives, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Additionally, if a student chooses Mobile Computing: iOS as their required course, they have the option to take Mobile Computing: Android as an elective.                                                                Note: Elective courses are subjected to change every semester.",
@@ -87,8 +138,9 @@
             {
                 "tag":"Prerequisites",
                 "patterns":[
-                    "Are there any prerequisite academic or professional qualifications expected for the ACS program?","Could you outline the prerequisite requirements for joining the ACS course?","What are the prerequisite background qualifications for ACS course admission?","Can you explain the academic or professional prerequisites for the ACS course?","Are there specific prerequisite qualifications required for entry into the ACS program?","What are the prerequisite conditions for eligibility in the ACS course?","Could you provide information about the admission prerequisites for the ACS program?",
-                    "What are the prerequisite qualifications or criteria for enrolling in the ACS course?","Could you detail the prerequisites for enrolling in the ACS course?","What are the admission requirements or prerequisites for joining the ACS course?","What are the prerequisites for enrolling in the ACS course?","prerequisites","prerequisites required for enrolling in ACS program","what are the prerequisites"
+                    "Are there any prerequisite academic or professional qualifications expected for the ACS program?","Could you outline the prerequisite requirements for joining the ACS course?","What are the prerequisite background qualifications for ACS course admission?","Can you explain the academic or professional prerequisites for the ACS course?",
+                    "Are there specific prerequisite qualifications required for entry into the ACS program?","What are the prerequisite conditions for eligibility in the ACS course?","Could you provide information about the admission prerequisites for the ACS program?","What are the prerequisite qualifications or criteria for enrolling in the ACS course?",
+                    "Could you detail the prerequisites for enrolling in the ACS course?","What are the admission requirements or prerequisites for joining the ACS course?","What are the prerequisites for enrolling in the ACS course?","prerequisites","prerequisites required for enrolling in ACS program","what are the prerequisites"
                             ],
                 "responses":[
                     "If not completed as an undergraduate, You have to take \"Database Systems\" Course.",
@@ -104,10 +156,14 @@
             {
                 "tag":"RequiredGPA",
                 "patterns":[
-                    "What is the required GPA ?","Required GPA for admission in ACS?","What GPA is considered acceptable for gaining admission to an ACS Course?","Is there a specific GPA requirement for entry into an ACS Course?","What is the minimum GPA required for admission to an ACS Course?","Is there a specific GPA cutoff for gaining admission to the ACS Course?","What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?"
+                    "What is the required GPA ?","Required GPA for admission in ACS?","What GPA is considered acceptable for gaining admission to an ACS Course?",
+                    "Is there a specific GPA requirement for entry into an ACS Course?","What is the minimum GPA required for admission to an ACS Course?","Is there a specific GPA cutoff for gaining admission to the ACS Course?",
+                    "What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?"
                 ],
                 "responses":[
-                    "The GPA should be above or Equal to 3.0","A GPA of 3.0 and above is necessary.","Your GPA should meet or exceed 3.0.","You must have a GPA of 3.0 or greater.","To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.","Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required."
+                    "The GPA should be above or Equal to 3.0","A GPA of 3.0 and above is necessary.","Your GPA should meet or exceed 3.0.","You must have a GPA of 3.0 or greater.",
+                    "To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.",
+                    "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required."
                 ]
             }
 
