@@ -87,10 +87,18 @@
             {
                 "tag":"Prerequisites",
                 "patterns":[
-
+                    "Are there any prerequisite academic or professional qualifications expected for the ACS program?","Could you outline the prerequisite requirements for joining the ACS course?","What are the prerequisite background qualifications for ACS course admission?","Can you explain the academic or professional prerequisites for the ACS course?","Are there specific prerequisite qualifications required for entry into the ACS program?","What are the prerequisite conditions for eligibility in the ACS course?","Could you provide information about the admission prerequisites for the ACS program?",
+                    "What are the prerequisite qualifications or criteria for enrolling in the ACS course?","Could you detail the prerequisites for enrolling in the ACS course?","What are the admission requirements or prerequisites for joining the ACS course?","What are the prerequisites for enrolling in the ACS course?","prerequisites","prerequisites required for enrolling in ACS program","what are the prerequisites"
                             ],
                 "responses":[
-
+                    "If not completed as an undergraduate, You have to take \"Database Systems\" Course.",
+                    "If you haven't completed a \"Database Systems\" course during your undergraduate studies, it's a requirement for enrollment.",
+                    "If you did not cover Database Systems as an undergraduate, you must include it in your coursework.",
+                    "For those who haven't fulfilled this requirement during their undergraduate studies, enrolling in a Database Systems course is mandatory.",
+                    "A Database Systems course is mandatory if you didn't complete it as an undergraduate.",
+                    "If you didn't take Database Systems as an undergrad, you'll need to include it in your course load.",
+                    "Completion of a Database Systems course is necessary if it wasn't fulfilled during your undergraduate studies.",
+                    "If you haven't already taken a Database Systems course during your undergraduate program, it's a prerequisite for enrollment."        
                 ]
             },
             {
