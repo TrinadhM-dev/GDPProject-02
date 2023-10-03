@@ -165,6 +165,16 @@
                     "To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.",
                     "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required."
                 ]
+            },
+            
+            {
+                "tag":"DeadlinesForSpringIntake",
+                "patterns":[
+                    "What's the last day to apply for the Spring semester?","By when should I have my Spring Intake application completed?","What's the cutoff date for Spring Intake applications?","What is the due date for applying to the Spring Intake?","When is the Spring Intake application deadline?","What is the Deadline for Spring Intake?"
+                ],
+                "responses":[
+                    "The last day to appply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to appply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester."
+                ]
             }
 
 ]
