@@ -184,6 +184,15 @@
                 "responses":[
                     "The last day to apply for fall semester is May 1.","The last day to apply for fall semester is first day of May.","05/01","The last day to apply for fall semester is May first.","The start of May is last day to apply for fall semester.","The beginning of May  is last day to apply for fall semester.","One May is last day to apply for fall semester.","01/05 (in some date formats) is last day to apply for fall semester.","May 1 is last day to apply for fall semester.","1st of May is last day to apply for fall semester."
                 ]
+            },
+            {
+                "tag":"DeadlinesForSummerIntake",
+                "patterns":[
+                    "What's the last day to apply for the Summer semester?","By when should I have my summer Intake application completed?","What's the cutoff date for summer Intake applications?","What is the due date for applying to the summer Intake?","When is the summer Intake application deadline?","What is the Deadline for summer Intake?"
+                ],
+                "responses":[
+                    "The last day to apply for Summer semester is March 1.","The last day to apply for summer semester is first day of March.","03/01","The last day to apply for summer semester is March first.","The start of March is last day to apply for summer semester.","The beginning of March  is last day to apply for March semester.","One March is last day to apply for summer semester.","01/03 (in some date formats) is last day to apply for Summer semester.","May 1 is last day to apply for fall semester.","1st of March is last day to apply for Summer semester."
+                ]
             }
 
 ]
