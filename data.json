@@ -175,6 +175,15 @@
                 "responses":[
                     "The last day to appply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to appply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester."
                 ]
+            },
+            {
+                "tag":"DeadlinesForFallIntake",
+                "patterns":[
+                    "What's the last day to apply for the Fall semester?","By when should I have my Fall Intake application completed?","What's the cutoff date for fall Intake applications?","What is the due date for applying to the fall Intake?","When is the fall Intake application deadline?","What is the Deadline for fall Intake?"
+                ],
+                "responses":[
+                    "The last day to apply for fall semester is May 1.","The last day to apply for fall semester is first day of May.","05/01","The last day to apply for fall semester is May first.","The start of May is last day to apply for fall semester.","The beginning of May  is last day to apply for fall semester.","One May is last day to apply for fall semester.","01/05 (in some date formats) is last day to apply for fall semester.","May 1 is last day to apply for fall semester.","1st of May is last day to apply for fall semester."
+                ]
             }
 
 ]
