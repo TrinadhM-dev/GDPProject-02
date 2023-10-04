@@ -73,7 +73,7 @@
                     "Are there any scholarships or financial aid options available to help offset the graduate program's cost?",
                     "What is the expected financial commitment for pursuing a graduate degree?",
                     "Could you provide an estimate of the total expenses for graduate studies?",
-                    "What is the Estimated Graduate Cost?"
+                    "What is the Estimated Graduate Cost?", "tuition fee","Tuition Fee for ACS Course?","tuitionFee"
                 ],
                 "responses":[
                     "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.",
