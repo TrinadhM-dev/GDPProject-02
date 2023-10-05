@@ -202,7 +202,17 @@
                 "responses":[
                     "Yes, You can find the jobs in Campus Dining, Graduate Assistantship/ Teaching Assistantship, Parking Assistant, Librarian, Shuttle Drivers","Certainly, there are job openings available in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and Shuttle Driving, among other options.","Indeed, you'll discover employment opportunities in areas like Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driving.","You'll find job prospects within Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other possibilities."
                 ]
+            },
+            {
+                "tag":"JobPlacementRate",
+                "patterns":[
+                    "What is the job placement rate for graduates?","What percentage of your graduates find jobs within a certain period after graduation?","What's the rate of successful job placements among your university's graduates?","Could you provide data on the employment status of students shortly after they graduate?","What can you tell me about the job prospects for recent graduates of your institution?"
+                ],
+                "responses":[
+                    "Job placement rate for graduates is 91%","Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.","Out of all our graduates, 91% find jobs."
+                ]
             }
+
 
 ]
 
