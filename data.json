@@ -211,6 +211,13 @@
                 "responses":[
                     "Job placement rate for graduates is 91%","Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.","Out of all our graduates, 91% find jobs."
                 ]
+            },
+            {
+                "tag":"CS/IS International Graduate Achievement Scholarship",
+                "patterns":[
+                    "What is the CS/IS International Graduate Achievement Scholarship?","What does the CS/IS International Graduate Achievement Scholarship entail?","Could you provide information about the CS/IS International Graduate Achievement Scholarship?","I'd like to learn more about the CS/IS International Graduate Achievement Scholarship. Can you explain it?","Can you describe the CS/IS International Graduate Achievement Scholarship?","What details can you share regarding the CS/IS International Graduate Achievement Scholarship?","Could you shed some light on the nature of the CS/IS International Graduate Achievement Scholarship?"
+
+                ]
             }
 
 
