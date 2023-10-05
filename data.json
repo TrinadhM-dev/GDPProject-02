@@ -193,6 +193,15 @@
                 "responses":[
                     "The last day to apply for Summer semester is March 1.","The last day to apply for summer semester is first day of March.","03/01","The last day to apply for summer semester is March first.","The start of March is last day to apply for summer semester.","The beginning of March  is last day to apply for March semester.","One March is last day to apply for summer semester.","01/03 (in some date formats) is last day to apply for Summer semester.","May 1 is last day to apply for fall semester.","1st of March is last day to apply for Summer semester."
                 ]
+            },
+            {
+                "tag":"OnCampusJobs",
+                "patterns":[
+                    "Can you tell me about the employment possibilities for students on campus?","Are there any job openings for students within the university?","What are the available job positions for students who want to work on campus?","What on-campus job options are there for students?","What are the job opportunities available for students in on campus?"
+                ],
+                "responses":[
+                    "Yes, You can find the jobs in Campus Dining, Graduate Assistantship/ Teaching Assistantship, Parking Assistant, Librarian, Shuttle Drivers","Certainly, there are job openings available in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and Shuttle Driving, among other options.","Indeed, you'll discover employment opportunities in areas like Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driving.","You'll find job prospects within Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other possibilities."
+                ]
             }
 
 ]
