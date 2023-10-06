@@ -50,7 +50,20 @@
                     "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
                 ]
             },
-            {
+{
+    "tag":"Assistance for graduates ",
+    "patterns":[
+        "is there any assitance for graduate school applications? "
+    ],
+    "responses":[
+        "University Advising Services",
+        "Faculty Advisors",
+        "Faculty Advisors",
+        "Professional Associations"
+    ]
+}
+
+            ,{
                 "tag":"CreditHours",
                 "patterns":[
                     "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?",
