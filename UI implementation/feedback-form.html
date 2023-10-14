@@ -41,6 +41,25 @@ const requestBody = {
     message: 'Add user feedback', // Commit message
     content: btoa(feedbackData), // Base64-encoded content
 };
+            // Create the POST request to GitHub API
+fetch(apiUrl, {
+    method: 'PUT',
+    headers: headers,
+    body: JSON.stringify(requestBody),
+})
+.then((response) => {
+    if (response.status === 200) {
+        console.log('Feedback saved to GitHub successfully.');
+        // You can display a success message to the user here.
+    } else {
+        console.error('Error saving feedback to GitHub:', response.status, response.statusText);
+        // You can display an error message to the user here.
+    }
+})
+.catch((error) => {
+    console.error('Error:', error);
+    // Handle any network or request errors.
+});
         }
 
     </script>
