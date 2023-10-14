@@ -36,9 +36,12 @@
             const headers = new Headers();
             headers.append('Authorization', `token ${ personalAccessToken }`);
             headers.append('Content-Type', 'application/json');
-
+// Construct the request body, including the feedback data
+const requestBody = {
+    message: 'Add user feedback', // Commit message
+    content: btoa(feedbackData), // Base64-encoded content
+};
         }
-
 
     </script>
 </body>
