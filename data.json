@@ -252,6 +252,18 @@
                 ]
                 
             },
+            {
+                "tag":"College fees per credit in ACS",
+                "patterns":[
+                 "What is the college fees per credit for ACS students in this university", "The per-credit cost for the ACS program at this university?","What is the university's ACS program charges fees on a per-credit basis?", 
+                 "What is the cost of each credit for the ACS program at this institution.","How much is  the college fees per credit for the ACS program in this university."
+                ],
+                "responses":[
+                    "College fees per credit for ACS in this university is $535.30.","Tuition for a single credit in the ACS program at this university is $535.30.",
+                    "One credit hour in the ACS program at this university costs $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.","The ACS program's per-credit tuition rate at this university is $535.30."	
+                ]
+                
+            }
             
 
             
