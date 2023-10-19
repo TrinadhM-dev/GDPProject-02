@@ -239,8 +239,20 @@
                     "The CS/IS International Graduate Achievement Scholarship is specifically for high-achieving students who have met the admission criteria for on-campus graduate programs in the School of Computer Science and Information Systems. This scholarship is not accessible to students in other graduate programs, online studies, or those with conditional admission. Successful applicants will receive an automatic one-time $500 scholarship applied to their first-semester tuition. There's no need for a separate application. For more information and to discover additional financial aid opportunities, you can refer to the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm."
                 ]
                 
+            },
+            {
+                "tag":"Student-Faculty Ratio",
+                "patterns":[
+                 "What is the student to faculty ratio in ACS?", "What is the current student-faculty ratio in ACS?","Can you provide me with the student-faculty ratio for ACS?", 
+                 "Is there a specific student-to-faculty ratio for the ACS course?","What is the average class size at ACS in terms of students per faculty member?"
+                ],
+                "responses":[
+                    "The student-faculty ratio at this university is 22:1 in ACS.","In ACS, there are 22 students for every faculty member.",
+                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member."	
+                ]
+                
             }
-
+            
 
 ]
 
