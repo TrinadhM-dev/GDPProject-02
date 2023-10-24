@@ -277,6 +277,18 @@
                                        
                  ]
             },
+            {
+                "tag":"Building Blocks in Campus",
+                "patterns":[
+                 "How many buildings are there in campus",
+                 "what are  the  buildings within the campus", 
+                 "Buildings"
+                ],
+                "responses":[
+                    "Colden hall,Garet Strong,Valk Building,Wells Building,Owens Library,Student Union"
+                                ]
+                
+            },
             {        
                 "tag":"Application fee",
                 "patterns":[
