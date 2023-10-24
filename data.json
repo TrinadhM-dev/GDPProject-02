@@ -301,7 +301,21 @@
                     "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
                                        
                  ]
-            }          
+            },
+            {
+                "tag":"scholarships opportunities",
+                 "patterns":[
+                    "Are there scholarships or financial aid opportunities available?","Do the university or college provide scholarships or financial assistance?","Are there any financial aid packages or scholarships available for students?","Can you provide information on the availability of scholarships and financial aid?",
+                    "Are there any financial aid resources to help offset the cost of tuition?","How can I find out about potential scholarships or financial aid opportunities?"
+                 ],
+                 "responses":[
+                    "Scholarships at the University are granted to students considering their academic prowess, financial requirements, or a blend of both.",      
+                    "Students may receive scholarships from the University based on their academic achievements, financial circumstances, or a combination of both.",
+                    "The University considers academic excellence, financial need, or a combination of the two when awarding scholarships to students."
+                                       
+                 ]
+            }
+
 
 ]
 
