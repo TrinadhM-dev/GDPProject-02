@@ -263,6 +263,18 @@
                     "One credit hour in the ACS program at this university costs $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.","The ACS program's per-credit tuition rate at this university is $535.30."	
                 ]
                 
+            },
+            {
+                "tag":"Application fee",
+                "patterns":[
+                 "How much does it cost to apply to this university?", "Could you please provide information on the application fee for this university?","What is the fee associated with the application process at this university?", 
+                 "Do I need to pay a fee when applying to this university, and if so, how much is it?","Are there any charges or costs involved in submitting an application to this university?"
+                ],
+                "responses":[
+                    "The university's application fee is set at $75.","You will be required to pay a fee of $75 when applying to this university.",
+                    "The cost of applying to this university is $75.","The required fee for applying to this university is $75.","The application process at this university comes with a $75 fee."	
+                ]
+                
             }
             
 
