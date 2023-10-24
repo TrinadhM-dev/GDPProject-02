@@ -248,86 +248,35 @@
                 ],
                 "responses":[
                     "The student-faculty ratio at this university is 22:1 in ACS.","In ACS, there are 22 students for every faculty member.",
-                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member."	
+                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member." 
                 ]
-                
-            },
-            {
-                "tag":"College fees per credit in ACS",
-                "patterns":[
-                 "What is the college fees per credit for ACS students in this university", "The per-credit cost for the ACS program at this university?","What is the university's ACS program charges fees on a per-credit basis?", 
-                 "What is the cost of each credit for the ACS program at this institution.","How much is  the college fees per credit for the ACS program in this university."
-                ],
-                "responses":[
-                    "College fees per credit for ACS in this university is $535.30.","Tuition for a single credit in the ACS program at this university is $535.30.",
-                    "One credit hour in the ACS program at this university costs $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.","The ACS program's per-credit tuition rate at this university is $535.30."	
-                ]
-                
-            },
-            {
-                "tag":"Standardized test score requirements",
-                 "patterns":[
-                    "What are the standardized test score requirements for ACS?","Can you provide details about the required test scores for ACS?","Are there minimum test score requirements for ACS?","What weight do test scores carry in the ACS admissions decision?",
-                    "Could you please outline the test score requirements for ACS?","Can you provide me with information about the minimum test score requirements for ACS?"
-                 ],
-                 "responses":[
-                    "Students enrolling in the ACS course at this university must meet the following minimum English proficiency exam score requirements:Duolingo: 105-110/160, IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is required for admission.",      
-                    "Admission into the ACS course at this university necessitates prospective students to meet the subsequent minimum requirements for English proficiency exam scores: Duolingo: 105-110/160,IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is obligatory.",
-                    "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
-                                       
-                 ]
-            },
-            {
-                "tag":"Building Blocks in Campus",
-                "patterns":[
-                 "How many buildings are there in campus",
-                 "what are  the  buildings within the campus", 
-                 "Buildings"
-                ],
-                "responses":[
-                    "Colden hall,Garet Strong,Valk Building,Wells Building,Owens Library,Student Union"
-                                ]
-                
-            },
-            {        
-                "tag":"Application fee",
-                "patterns":[
-                 "How much does it cost to apply to this university?", "Could you please provide information on the application fee for this university?","What is the fee associated with the application process at this university?", 
-                 "Do I need to pay a fee when applying to this university, and if so, how much is it?","Are there any charges or costs involved in submitting an application to this university?"
-                ],
-                "responses":[
-                    "The university's application fee is set at $75.","You will be required to pay a fee of $75 when applying to this university.",
-                    "The cost of applying to this university is $75.","The required fee for applying to this university is $75.","The application process at this university comes with a $75 fee."	
-                ]
-                
-            },
-            {
-                "tag":"Standardized test score requirements",
-                 "patterns":[
-                    "What are the standardized test score requirements for ACS?","Can you provide details about the required test scores for ACS?","Are there minimum test score requirements for ACS?","What weight do test scores carry in the ACS admissions decision?",
-                    "Could you please outline the test score requirements for ACS?","Can you provide me with information about the minimum test score requirements for ACS?"
-                 ],
-                 "responses":[
-                    "Students enrolling in the ACS course at this university must meet the following minimum English proficiency exam score requirements:Duolingo: 105-110/160, IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is required for admission.",
-                    "Admission into the ACS course at this university necessitates prospective students to meet the subsequent minimum requirements for English proficiency exam scores: Duolingo: 105-110/160,IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is obligatory.",
-                    "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
-                                       
-                 ]
-            },
-            {
-                "tag":"scholarships opportunities",
-                 "patterns":[
-                    "Are there scholarships or financial aid opportunities available?","Do the university or college provide scholarships or financial assistance?","Are there any financial aid packages or scholarships available for students?","Can you provide information on the availability of scholarships and financial aid?",
-                    "Are there any financial aid resources to help offset the cost of tuition?","How can I find out about potential scholarships or financial aid opportunities?"
-                 ],
-                 "responses":[
-                    "Scholarships at the University are granted to students considering their academic prowess, financial requirements, or a blend of both.",      
-                    "Students may receive scholarships from the University based on their academic achievements, financial circumstances, or a combination of both.",
-                    "The University considers academic excellence, financial need, or a combination of the two when awarding scholarships to students."
-                                       
-                 ]
-            }
 
+                
+                
+            },
+            {
+                "tag":"Admission Crietria",
+                "patterns":[
+                    "What are the minimum GPA requirements for admission to the master's programs at Northwest Missouri State University?",
+
+                    "Do the master's programs at Northwest Missouri State University require standardized test scores, such as the GRE or GMAT? If so, what are the minimum score requirements?",
+                    
+                    "Can you explain the English language proficiency requirements for international applicants?",
+                    
+                    "What types of documents are needed for the application, such as transcripts, letters of recommendation, and a statement of purpose?",
+                    
+                    "Are there specific prerequisites or academic qualifications required for each master's program? If so, what are they?",
+                    
+                
+                "responses":[
+                    " Admission criteria, requirements, and policies can change over time, and they may vary between  programs. Therefore, I recommend visiting the official website of Northwest Missouri State University, Please find the details in the given Link- https://www.nwmissouri.edu/csis/msacs/apply/index.htm"    
+                ]
+
+                
+                
+            }
+            
+            
 
 ]
 
