@@ -290,7 +290,23 @@
                     "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
 
                  ]
-            }   
+            },
+            {
+                "tag":"specialized tools for coursework? ",
+                 "patterns":[
+                    "Can I access specialized software or tools for coursework? ","Is it possible for me to use specialized software or tools required for my coursework?","Do I have access to the specific software and tools needed to complete my coursework?",
+                    "Can I obtain the necessary software and tools for my coursework?","Will I be provided with the software and tools that are vital for my studies?"
+                    
+
+                 ],
+                 "responses":[
+                    "Students can access to specialized software tools such as integrated development environments (IDEs) for programming languages",      
+                    "The university facilitates students' access to specialized software tools, including integrated development environments (IDEs) for programming languages.",
+                    "Students are given the means to work with specialized software tools, and this includes integrated development environments (IDEs) for programming languages"
+
+                 ]
+            }
+
             
             
 
