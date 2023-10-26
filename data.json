@@ -274,7 +274,21 @@
 
                 
                 
-            }
+            },
+            {
+                "tag":"Standardized test score requirements",
+                 "patterns":[
+                    "What are the standardized test score requirements for ACS?","Can you provide details about the required test scores for ACS?","Are there minimum test score requirements for ACS?","What weight do test scores carry in the ACS admissions decision?",
+                    "Could you please outline the test score requirements for ACS?","Can you provide me with information about the minimum test score requirements for ACS?","What are the score expectations for prospective students at ACS? ","What test score thresholds do applicants need to meet for ACS?","What is the benchmark for test scores that applicants must achieve for ACS?"
+
+                 ],
+                 "responses":[
+                    "Students enrolling in the ACS course at this university must meet the following minimum English proficiency exam score requirements:Duolingo: 105-110/160, IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is required for admission.",      
+                    "Admission into the ACS course at this university necessitates prospective students to meet the subsequent minimum requirements for English proficiency exam scores: Duolingo: 105-110/160,IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is obligatory.",
+                    "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
+
+                 ]
+            }   
             
             
 
