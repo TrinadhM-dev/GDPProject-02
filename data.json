@@ -45,9 +45,9 @@
                     "professors","instructors in acs course"
                 ],
                 "responses":[
-                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli,Fellah,Ali",
-                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli,,Fellah,Ali",
-                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli,,Fellah,Ali,"
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
                 ]
             },
 {
@@ -91,10 +91,7 @@
                 "responses":[
                     "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.",
                     "The ACS graduate program entails a total cost of $16,802.20","The overall expense for the ACS graduate program is $16,802.20.",
-                    "For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20.",
-                    "$16,802.20","The ACS graduate program requires a total payment of $16,802.20.", "To enroll in the ACS graduate program, students must plan for an expenditure of $16,802.20.",
-                    "A sum of $16,802.20 is the complete expense for the ACS graduate program.", "The total financial obligation for students in the ACS graduate program is $16,802.20.",
-                    "Enrolling in the ACS program necessitates setting aside $16,802.20 for the program's entirety."
+                    "For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20."
                 ]
             },
             {
@@ -258,7 +255,7 @@
                 
             },
             {
-                "tag":"Admission Criteria",
+                "tag":"Admission Crietria",
                 "patterns":[
                     "What are the minimum GPA requirements for admission to the master's programs at Northwest Missouri State University?",
 
