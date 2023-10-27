@@ -291,7 +291,6 @@
 
                  ]
             },
-<<<<<<< HEAD
             {
                 "tag":"specialized tools for coursework? ",
                  "patterns":[
@@ -306,10 +305,7 @@
                     "Students are given the means to work with specialized software tools, and this includes integrated development environments (IDEs) for programming languages"
 
                  ]
-            }
-
-=======
-            
+            },       
             {
                 "tag":"College fees per credit in ACS",
                 "patterns":[
@@ -325,7 +321,6 @@
                 ]
                 
             }   
->>>>>>> 5e75dfc0ec9bd788f800934a872a36b04b4c4fdd
             
             
 
