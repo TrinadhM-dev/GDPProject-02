@@ -320,6 +320,21 @@
 
                 ]
                 
+            },
+            {
+                
+                "tag":"Rankings and Reputation",
+                "patterns":[
+	                "Can you share information about the university's rankings and reputation?",
+	                "What is the university's current ranking and reputation?",
+	                "Tell me about the academic standing and reputation of the university.",
+	                "I'd like to know about the university's reputation. Can you provide details about that?"
+                ],
+                "responses":[
+	                "The Northwest Missouri State University is ranked: #104 out of 167 Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. #1721 by Uni Rank .Northwest Missouri State University is a public institution that was founded in 1905.",
+                    "Northwest Missouri State University, a public institution established in 1905, is positioned at #104 among Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. Additionally, it holds the #1721 rank according to UniRank."	
+	            ]
+    
             }   
             
             
