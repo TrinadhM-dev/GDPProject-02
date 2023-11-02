@@ -328,11 +328,15 @@
 	                "Can you share information about the university's rankings and reputation?",
 	                "What is the university's current ranking and reputation?",
 	                "Tell me about the academic standing and reputation of the university.",
-	                "I'd like to know about the university's reputation. Can you provide details about that?"
+	                "I'd like to know about the university's reputation. Can you provide details about that?",
+                    "Please give me insights into the university's standing in the academic community",
+                    "How is the university ranked in comparison to other institutions?"
                 ],
                 "responses":[
 	                "The Northwest Missouri State University is ranked: #104 out of 167 Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. #1721 by Uni Rank .Northwest Missouri State University is a public institution that was founded in 1905.",
-                    "Northwest Missouri State University, a public institution established in 1905, is positioned at #104 among Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. Additionally, it holds the #1721 rank according to UniRank."	
+                    "Northwest Missouri State University, a public institution established in 1905, is positioned at #104 among Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. Additionally, it holds the #1721 rank according to UniRank.",
+                    "Founded in 1905, Northwest Missouri State University is a public institution. It has been recognized in the 2022-2023 U.S. News & World Report's Best Colleges, securing the #104 position among Regional Universities in the Midwest. UniRank also ranks the university at #1721.",
+                    "Established in 1905, Northwest Missouri State University is a public institution that ranks at #104 among Regional Universities in the Midwest according to the 2022-2023 U.S. News & World Report's Best Colleges. UniRank also positions it at #1721."
 	            ]
     
             }   
