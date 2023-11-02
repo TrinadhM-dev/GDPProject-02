@@ -295,14 +295,14 @@
                 "tag":"specialized tools for coursework? ",
                  "patterns":[
                     "Can I access specialized software or tools for coursework? ","Is it possible for me to use specialized software or tools required for my coursework?","Do I have access to the specific software and tools needed to complete my coursework?",
-                    "Can I obtain the necessary software and tools for my coursework?","Will I be provided with the software and tools that are vital for my studies?"
+                    "Can I obtain the necessary software and tools for my coursework?","Will I be provided with the software and tools that are vital for my studies?","Am I allowed to employ specialized software or tools for my coursework","Are there any resources available for students to use specialized software or tools in their coursework?"
                     
 
                  ],
                  "responses":[
                     "Students can access to specialized software tools such as integrated development environments (IDEs) for programming languages",      
                     "The university facilitates students' access to specialized software tools, including integrated development environments (IDEs) for programming languages.",
-                    "Students are given the means to work with specialized software tools, and this includes integrated development environments (IDEs) for programming languages"
+                    "Students are given the means to work with specialized software tools, and this includes integrated development environments (IDEs) for programming languages","Students are able to utilize specialized software tools, including Integrated Development Environments (IDEs) for programming languages","Students are granted access to specialized software tools, including programming language Integrated Development Environments (IDEs)."
 
                  ]
             },       
