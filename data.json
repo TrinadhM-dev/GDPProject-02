@@ -396,7 +396,20 @@
                     "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
                 ]
             },
-            {
+{
+    "tag":"Assistance for graduates ",
+    "patterns":[
+        "is there any assitance for graduate school applications? "
+    ],
+    "responses":[
+        "University Advising Services",
+        "Faculty Advisors",
+        "Faculty Advisors",
+        "Professional Associations"
+    ]
+}
+
+            ,{
                 "tag":"CreditHours",
                 "patterns":[
                     "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?",
@@ -557,8 +570,120 @@
                 "responses":[
                     "Job placement rate for graduates is 91%","Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.","Out of all our graduates, 91% find jobs."
                 ]
-            }
+            },
+            {
+                "tag":"CS/IS International Graduate Achievement Scholarship",
+                "patterns":[
+                    "What is the CS/IS International Graduate Achievement Scholarship?","What does the CS/IS International Graduate Achievement Scholarship entail?","Could you provide information about the CS/IS International Graduate Achievement Scholarship?","I'd like to learn more about the CS/IS International Graduate Achievement Scholarship. Can you explain it?","Can you describe the CS/IS International Graduate Achievement Scholarship?","What details can you share regarding the CS/IS International Graduate Achievement Scholarship?","Could you shed some light on the nature of the CS/IS International Graduate Achievement Scholarship?"
 
+                ],
+                "responses":[
+                    "To be eligible for the CS/IS International Graduate Achievement Scholarship, applicants must have a high level of achievement in their academic background and meet requirements for full admission to an on-campus graduate program in the School of Computer Science and Information Systems. Students in other graduate programs, online programs, or students conditionally admitted to the graduate school are not eligible. With this award you will receive $500 toward your first semester tuition. The scholarship is a one-time award and is automatic. No application is needed. you can refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm ",
+                    "Eligibility for the CS/IS International Graduate Achievement Scholarship requires strong academic performance and full admission to an on-campus graduate program within the School of Computer Science and Information Systems. It's exclusive to on-campus students, not applicable to those in other graduate programs or online courses, and unavailable to conditionally admitted students. Successful applicants receive a one-time $500 scholarship for their first semester tuition. No separate application is needed; eligibility is automatic based on academic achievements and program admission. Visit the university's financial aid website for more information and explore additional financial aid opportunities.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm.",
+                    "The CS/IS International Graduate Achievement Scholarship is available to students who have a strong academic background and meet the admission requirements for on-campus graduate programs in the School of Computer Science and Information Systems. It's not open to students in other programs, including online courses, or those conditionally admitted to the graduate school. Successful applicants will automatically receive a one-time award of $500 toward their first semester tuition. There is no separate application process required. For further details and other financial aid options, you can visit the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm.",
+                    "The CS/IS International Graduate Achievement Scholarship is designed for students who excel academically and secure full admission to on-campus graduate programs in the School of Computer Science and Information Systems. Importantly, this scholarship isn't open to students pursuing different graduate programs, online courses, or those with conditional admission. Recipients will automatically receive a one-time $500 scholarship toward their initial semester's tuition, and no additional application is required. To explore further details and alternative financial aid possibilities, you can visit the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm.",
+                    "The CS/IS International Graduate Achievement Scholarship is specifically for high-achieving students who have met the admission criteria for on-campus graduate programs in the School of Computer Science and Information Systems. This scholarship is not accessible to students in other graduate programs, online studies, or those with conditional admission. Successful applicants will receive an automatic one-time $500 scholarship applied to their first-semester tuition. There's no need for a separate application. For more information and to discover additional financial aid opportunities, you can refer to the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm."
+                ]
+                
+            },
+            {
+                "tag":"Student-Faculty Ratio",
+                "patterns":[
+                 "What is the student to faculty ratio in ACS?", "What is the current student-faculty ratio in ACS?","Can you provide me with the student-faculty ratio for ACS?", 
+                 "Is there a specific student-to-faculty ratio for the ACS course?","What is the average class size at ACS in terms of students per faculty member?"
+                ],
+                "responses":[
+                    "The student-faculty ratio at this university is 22:1 in ACS.","In ACS, there are 22 students for every faculty member.",
+                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member." 
+                ]
+
+                
+                
+            },
+            {
+                "tag":"Admission Crietria",
+                "patterns":[
+                    "What are the minimum GPA requirements for admission to the master's programs at Northwest Missouri State University?",
+
+                    "Do the master's programs at Northwest Missouri State University require standardized test scores, such as the GRE or GMAT? If so, what are the minimum score requirements?",
+                    
+                    "Can you explain the English language proficiency requirements for international applicants?",
+                    
+                    "What types of documents are needed for the application, such as transcripts, letters of recommendation, and a statement of purpose?",
+                    
+                    "Are there specific prerequisites or academic qualifications required for each master's program? If so, what are they?"
+                    
+                ],
+                "responses":[
+                    " Admission criteria, requirements, and policies can change over time, and they may vary between  programs. Therefore, I recommend visiting the official website of Northwest Missouri State University, Please find the details in the given Link- https://www.nwmissouri.edu/csis/msacs/apply/index.htm"    
+                ]
+
+                
+                
+            },
+            {
+                "tag":"Standardized test score requirements",
+                 "patterns":[
+                    "What are the standardized test score requirements for ACS?","Can you provide details about the required test scores for ACS?","Are there minimum test score requirements for ACS?","What weight do test scores carry in the ACS admissions decision?",
+                    "Could you please outline the test score requirements for ACS?","Can you provide me with information about the minimum test score requirements for ACS?","What are the score expectations for prospective students at ACS? ","What test score thresholds do applicants need to meet for ACS?","What is the benchmark for test scores that applicants must achieve for ACS?",
+                    "Can you clarify the test score requirements for ACS applicants?","What are the entry-level test score expectations for ACS candidates?","Are there specific score cutoffs for admissions at ACS?"
+                    
+
+                 ],
+                 "responses":[
+                    "Students enrolling in the ACS course at this university must meet the following minimum English proficiency exam score requirements:Duolingo: 105-110/160, IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is required for admission.",      
+                    "Admission into the ACS course at this university necessitates prospective students to meet the subsequent minimum requirements for English proficiency exam scores: Duolingo: 105-110/160,IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is obligatory.",
+                    "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
+
+                 ]
+            },
+            {
+                "tag":"specialized tools for coursework? ",
+                 "patterns":[
+                    "Can I access specialized software or tools for coursework? ","Is it possible for me to use specialized software or tools required for my coursework?","Do I have access to the specific software and tools needed to complete my coursework?",
+                    "Can I obtain the necessary software and tools for my coursework?","Will I be provided with the software and tools that are vital for my studies?","Am I allowed to employ specialized software or tools for my coursework","Are there any resources available for students to use specialized software or tools in their coursework?"
+                    
+
+                 ],
+                 "responses":[
+                    "Students can access to specialized software tools such as integrated development environments (IDEs) for programming languages",      
+                    "The university facilitates students' access to specialized software tools, including integrated development environments (IDEs) for programming languages.",
+                    "Students are given the means to work with specialized software tools, and this includes integrated development environments (IDEs) for programming languages","Students are able to utilize specialized software tools, including Integrated Development Environments (IDEs) for programming languages","Students are granted access to specialized software tools, including programming language Integrated Development Environments (IDEs)."
+
+                 ]
+            },       
+            {
+                "tag":"College fees per credit in ACS",
+                "patterns":[
+                 "What is the college fees per credit for ACS students in this university", "The per-credit cost for the ACS program at this university?","What is the university's ACS program charges fees on a per-credit basis?", 
+                 "What is the cost of each credit for the ACS program at this institution.","How much is  the college fees per credit for the ACS program in this university."
+                ],
+                "responses":[
+                    "College fees per credit for ACS in this university is $535.30.","Tuition for a single credit in the ACS program at this university is $535.30.",
+                    "One credit hour in the ACS program at this university costs $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.",
+                    "The fee for one credit in the ACS program at this university is $535.30."	,"To enroll in the Associate in Computer Science program, you will need to pay $535.30 for each credit.","Students are required to budget $535.30 for each credit they take in the ACS program.",
+                    "The cost of pursuing one credit in the ACS program stands at $535.30."
+
+                ]
+                
+            },
+            {
+                
+                "tag":"Rankings and Reputation",
+                "patterns":[
+	                "Can you share information about the university's rankings and reputation?",
+	                "What is the university's current ranking and reputation?",
+	                "Tell me about the academic standing and reputation of the university.",
+	                "I'd like to know about the university's reputation. Can you provide details about that?"
+                ],
+                "responses":[
+	                "The Northwest Missouri State University is ranked: #104 out of 167 Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. #1721 by Uni Rank .Northwest Missouri State University is a public institution that was founded in 1905.",
+                    "Northwest Missouri State University, a public institution established in 1905, is positioned at #104 among Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. Additionally, it holds the #1721 rank according to UniRank."	
+	            ]
+    
+            }   
+            
+            
 
 ]
 

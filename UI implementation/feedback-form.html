@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="feedback-form.css">
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" autocomplete="given-name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="off" required>
+        <br>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" required></textarea>
+        <br>
+        <button type="submit" onclick="sendMail(); return false">Submit Feedback</button>
+    </form>
+    <p id="demo"></p>
+    <!-- Script -->
+    <script>
+        function sendMail() {
+            const feedbackData = `Name: ${ name }\nEmail: ${ email }\nComments: ${ comments }`;
+            const githubRepoOwner = 'TrinadhM-dev'; // Replace with your GitHub username
+            const githubRepoName = 'GDPProject-02'; // Replace with your GitHub repository name
+            const githubFilePath = 'feedback.txt'; // Replace with the file path where you want to save feedback data
+            const personalAccessToken = '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'; // Replace with your GitHub PAT
+            // Construct the URL for the GitHub API endpoint to create or update the file
+            const apiUrl = `https://api.github.com/repos/${githubRepoOwner}/${githubRepoName}/contents/${githubFilePath}`;
+
+            // Define the request headers
+            const headers = new Headers();
+            headers.append('Authorization', `token ${ personalAccessToken }`);
+            headers.append('Content-Type', 'application/json');
+// Construct the request body, including the feedback data
+const requestBody = {
+    message: 'Add user feedback', // Commit message
+    content: btoa(feedbackData), // Base64-encoded content
+};
+            // Create the POST request to GitHub API
+fetch(apiUrl, {
+    method: 'PUT',
+    headers: headers,
+    body: JSON.stringify(requestBody),
+})
+.then((response) => {
+    if (response.status === 200) {
+        console.log('Feedback saved to GitHub successfully.');
+        // You can display a success message to the user here.
+    } else {
+        console.error('Error saving feedback to GitHub:', response.status, response.statusText);
+        // You can display an error message to the user here.
+    }
+})
+.catch((error) => {
+    console.error('Error:', error);
+    // Handle any network or request errors.
+});
+        }
+        
+    </script>
+</body>
+
+</html>
