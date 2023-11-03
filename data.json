@@ -4,11 +4,11 @@
                 "patterns": [
                     "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see",
                     "hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy","hola",
-                    "how are you"
+                    "how are you","How's everything?","Hey, how's it going?","Hi, how are you?","What's up?","Good day!"
                 ],
                 "responses": [
                     "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?",
-                    "Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!"
+                    "Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!","Hello! How's your well-being?","What's up? How are you today?","Hi! How's your day treating you?","Hey! How's it hanging?","Hi there! How are things with you?","Howdy! How's your day going?","Greetings! How are you feeling?","Hi! How's everything on your end?","Hey there! How's it going?","Hello! How are you?"
                 ]
             },
             {
@@ -25,11 +25,19 @@
                     "What's the general course overview?","Can you provide a summary of the course content?",
                     "please provide me course overview.","Tell me about the course overview","Tell me about the course",
                     "course overview","Please provide course overview","credit hours required?","tell me about the course overview",
-                    "course overview","tell the course curriculum"
+                    "course overview","tell the course curriculum","Could you provide information about the Computer Science program?","I'd like to learn more about the Computer Science program. Can you tell me about it?","What can you tell me about the Computer Science program?","Please give me details on the Computer Science program.","I'm interested in the Computer Science program. Could you share some information?","Tell me more about the Computer Science program, please.","Could you describe the Computer Science program?","I'm curious about the Computer Science program. Can you give me an overview?","What's there to know about the Computer Science program?","Share some insights about the Computer Science program, if you would."
                 ],
                 "responses":[
                     "Northwest Missouri State University's Master of Science in Applied Computer Science is a 16-month program that offers a hands-on, professional education in today's high demand areas.",
-                    "A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages."
+                    "A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages.",
+                    "Northwest Missouri State University offers a 16-month Master of Science in Applied Computer Science program, providing a hands-on, career-focused education in high-demand fields.",
+                    "The Master of Science in Applied Computer Science program at Northwest Missouri State University spans 16 months and is designed to meet the current demands of the industry with a practical approach.",
+                    "At Northwest Missouri State University, the Master of Science in Applied Computer Science program is an intensive 16-month program tailored to the high-demand sectors, offering a practical education.",
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science program, completed in just 16 months, delivers a hands-on, industry-relevant education in areas with significant job opportunities.",
+                    "In the Master of Science in Applied Computer Science program at Northwest Missouri State University, students can expect a 16-month immersive experience that aligns with the current needs of the industry.",
+                    "Northwest Missouri State University's 16-month Master of Science in Applied Computer Science program provides a practical, career-oriented education in today's sought-after fields.",
+                    "The Master of Science in Applied Computer Science program at Northwest Missouri State University is a 16-month program designed to address the immediate needs of the job market with hands-on training.",
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science program, spanning 16 months, equips students with practical skills in areas of high industry demand."
                 ]
             },
             {
@@ -42,12 +50,25 @@
                     "Who are lectures that teach in ACS Program?","who are the professors",
                     "Who are lecturers that teach in ACS Program?","who teaches in MS ACS Course",
                     "provide the names of some instructors that are in ACS Course","who are instructors in ACS Course?",
-                    "professors","instructors in acs course"
+                    "professors","instructors in acs course","Who are the instructors teaching in the ACS course?","Can you provide me with the names of the professors in the MS ACS program?",
+                    "I'm interested in knowing the lecturers for the MS ACS course. Who are they?","Could you list the faculty members who are teaching in the Master of Science in Applied Computer Science program?",
+                    "I'd like to learn about the educators in the MS ACS course. Can you share their names?","Please tell me the names of the instructors for the ACS program.",
+                    "Who makes up the teaching staff for the MS ACS course?","Can you give me the names of the lecturers present in the MS ACS program?",
+                    "I'm curious about the faculty for the ACS course. Could you provide their names?","Who are the professors responsible for teaching in the MS ACS program?"
                 ],
                 "responses":[
                     "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
                     "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
-                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "The instructors for the course include Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli are the educators involved in the course.",
+                    "You'll be learning from Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli during the course.",
+                    "The course is taught by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Instructors for the course encompass Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "The course's teaching staff includes Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli are the individuals responsible for the course instruction.",
+                    "Your course will be led by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "The course is directed by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli."
                 ]
             },
 {
