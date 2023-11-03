@@ -74,13 +74,19 @@
 {
     "tag":"Assistance for graduates ",
     "patterns":[
-        "is there any assitance for graduate school applications? "
+        "is there any assitance for graduate school applications? ","Can I get help with my graduate school application process?","Can I receive assistance in navigating the graduate school admission process?",
+        "Do graduate programs offer guidance or counseling for application preparation?","What kind of guidance is available for international students applying to graduate school?","Can I find information on application assistance for graduate programs? "
+        
+        
     ],
     "responses":[
         "University Advising Services",
         "Faculty Advisors",
         "Faculty Advisors",
-        "Professional Associations"
+        "Professional Associations","University Advising Services can provide valuable guidance and counseling to assist with application preparation for graduate programs.","Faculty Advisors are a valuable resource when it comes to receiving guidance and counseling for graduate program application preparation.",
+        "Seeking advice from Faculty Advisors is a beneficial way to receive support and counseling during the process of preparing for graduate program applications.","Professional Associations can also offer guidance and counseling services to individuals looking to prepare for graduate program applications.",
+        "Guidance and counseling for graduate program application preparation can be accessed through University Advising Services.","Faculty Advisors serve as a reliable source of guidance and counseling for those getting ready to apply for graduate programs.","When preparing for graduate program applications, it's worth consulting Faculty Advisors for valuable guidance and counseling.",
+        "When preparing for graduate program applications, it's worth consulting Faculty Advisors for valuable guidance and counseling.","Professional Associations can be a source of assistance, offering guidance and counseling to individuals preparing for graduate program applications."
     ]
 }
 
@@ -89,11 +95,18 @@
                 "patterns":[
                     "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?",
                     "credit hours required?","credit hours needed","credit hours","how many credit hours required?","how many credit hours",
-                    "credit hours needed?","credit hours required","what are credit hours"
+                    "What is the credit hour quota for an MS in ACS program?","credit hours required","what are credit hours","What is the total number of credit hours necessary to obtain a Master's degree in Advanced Computer Science? ",
+                    "What is the credit hour requirement for earning a Master of Science in Advanced Computer Science?","Can you tell me the credit hour expectations for the MS in ACS?",
+                    "What is the minimum number of credit hours for an ACS MS degree?","How many credit hours do I need to fulfill for the ACS MS program?","How many credits must I earn to graduate with an MS in ACS?",
+                    "What is the credit hour threshold for the MS program in Advanced Computer Science?"
+                    
                 ],
                 "responses":[
                     "Thirty credit hours of graduate credits are required for completion of the M.S. in Applied Computer Science.",
-                    "30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours"
+                    "30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours","The M.S. program in Applied Computer Science has a 30-credit-hour completion requirement.",
+                    "For the M.S. in Applied Computer Science, 30 graduate credit hours are needed for completion.","To graduate with an M.S. in Applied Computer Science, you must have successfully earned 30 graduate credit hours.",
+                    "To earn an M.S. in Applied Computer Science, students must accrue a total of 30 graduate credit hours.","The M.S. in Applied Computer Science necessitates the completion of 30 graduate credit hours.",
+                    "For the M.S. in Applied Computer Science, 30 graduate credit hours are needed for completion","Achieving an M.S. in Applied Computer Science entails satisfying the 30-credit-hour mandate."
                 ]
             },
             {
