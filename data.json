@@ -4,11 +4,11 @@
                 "patterns": [
                     "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see",
                     "hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy","hola",
-                    "how are you"
+                    "how are you","How's everything?","Hey, how's it going?","Hi, how are you?","What's up?","Good day!"
                 ],
                 "responses": [
                     "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?",
-                    "Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!"
+                    "Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!","Hello! How's your well-being?","What's up? How are you today?","Hi! How's your day treating you?","Hey! How's it hanging?","Hi there! How are things with you?","Howdy! How's your day going?","Greetings! How are you feeling?","Hi! How's everything on your end?","Hey there! How's it going?","Hello! How are you?"
                 ]
             },
             {
@@ -25,11 +25,19 @@
                     "What's the general course overview?","Can you provide a summary of the course content?",
                     "please provide me course overview.","Tell me about the course overview","Tell me about the course",
                     "course overview","Please provide course overview","credit hours required?","tell me about the course overview",
-                    "course overview","tell the course curriculum"
+                    "course overview","tell the course curriculum","Could you provide information about the Computer Science program?","I'd like to learn more about the Computer Science program. Can you tell me about it?","What can you tell me about the Computer Science program?","Please give me details on the Computer Science program.","I'm interested in the Computer Science program. Could you share some information?","Tell me more about the Computer Science program, please.","Could you describe the Computer Science program?","I'm curious about the Computer Science program. Can you give me an overview?","What's there to know about the Computer Science program?","Share some insights about the Computer Science program, if you would."
                 ],
                 "responses":[
                     "Northwest Missouri State University's Master of Science in Applied Computer Science is a 16-month program that offers a hands-on, professional education in today's high demand areas.",
-                    "A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages."
+                    "A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages.",
+                    "Northwest Missouri State University offers a 16-month Master of Science in Applied Computer Science program, providing a hands-on, career-focused education in high-demand fields.",
+                    "The Master of Science in Applied Computer Science program at Northwest Missouri State University spans 16 months and is designed to meet the current demands of the industry with a practical approach.",
+                    "At Northwest Missouri State University, the Master of Science in Applied Computer Science program is an intensive 16-month program tailored to the high-demand sectors, offering a practical education.",
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science program, completed in just 16 months, delivers a hands-on, industry-relevant education in areas with significant job opportunities.",
+                    "In the Master of Science in Applied Computer Science program at Northwest Missouri State University, students can expect a 16-month immersive experience that aligns with the current needs of the industry.",
+                    "Northwest Missouri State University's 16-month Master of Science in Applied Computer Science program provides a practical, career-oriented education in today's sought-after fields.",
+                    "The Master of Science in Applied Computer Science program at Northwest Missouri State University is a 16-month program designed to address the immediate needs of the job market with hands-on training.",
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science program, spanning 16 months, equips students with practical skills in areas of high industry demand."
                 ]
             },
             {
@@ -42,24 +50,43 @@
                     "Who are lectures that teach in ACS Program?","who are the professors",
                     "Who are lecturers that teach in ACS Program?","who teaches in MS ACS Course",
                     "provide the names of some instructors that are in ACS Course","who are instructors in ACS Course?",
-                    "professors","instructors in acs course"
+                    "professors","instructors in acs course","Who are the instructors teaching in the ACS course?","Can you provide me with the names of the professors in the MS ACS program?",
+                    "I'm interested in knowing the lecturers for the MS ACS course. Who are they?","Could you list the faculty members who are teaching in the Master of Science in Applied Computer Science program?",
+                    "I'd like to learn about the educators in the MS ACS course. Can you share their names?","Please tell me the names of the instructors for the ACS program.",
+                    "Who makes up the teaching staff for the MS ACS course?","Can you give me the names of the lecturers present in the MS ACS program?",
+                    "I'm curious about the faculty for the ACS course. Could you provide their names?","Who are the professors responsible for teaching in the MS ACS program?"
                 ],
                 "responses":[
                     "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
                     "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
-                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli"
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "The instructors for the course include Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli are the educators involved in the course.",
+                    "You'll be learning from Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli during the course.",
+                    "The course is taught by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Instructors for the course encompass Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "The course's teaching staff includes Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli are the individuals responsible for the course instruction.",
+                    "Your course will be led by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "The course is directed by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli."
                 ]
             },
 {
     "tag":"Assistance for graduates ",
     "patterns":[
-        "is there any assitance for graduate school applications? "
+        "is there any assitance for graduate school applications? ","Can I get help with my graduate school application process?","Can I receive assistance in navigating the graduate school admission process?",
+        "Do graduate programs offer guidance or counseling for application preparation?","What kind of guidance is available for international students applying to graduate school?","Can I find information on application assistance for graduate programs? "
+        
+        
     ],
     "responses":[
         "University Advising Services",
         "Faculty Advisors",
         "Faculty Advisors",
-        "Professional Associations"
+        "Professional Associations","University Advising Services can provide valuable guidance and counseling to assist with application preparation for graduate programs.","Faculty Advisors are a valuable resource when it comes to receiving guidance and counseling for graduate program application preparation.",
+        "Seeking advice from Faculty Advisors is a beneficial way to receive support and counseling during the process of preparing for graduate program applications.","Professional Associations can also offer guidance and counseling services to individuals looking to prepare for graduate program applications.",
+        "Guidance and counseling for graduate program application preparation can be accessed through University Advising Services.","Faculty Advisors serve as a reliable source of guidance and counseling for those getting ready to apply for graduate programs.","When preparing for graduate program applications, it's worth consulting Faculty Advisors for valuable guidance and counseling.",
+        "When preparing for graduate program applications, it's worth consulting Faculty Advisors for valuable guidance and counseling.","Professional Associations can be a source of assistance, offering guidance and counseling to individuals preparing for graduate program applications."
     ]
 }
 
@@ -68,11 +95,18 @@
                 "patterns":[
                     "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?",
                     "credit hours required?","credit hours needed","credit hours","how many credit hours required?","how many credit hours",
-                    "credit hours needed?","credit hours required","what are credit hours"
+                    "What is the credit hour quota for an MS in ACS program?","credit hours required","what are credit hours","What is the total number of credit hours necessary to obtain a Master's degree in Advanced Computer Science? ",
+                    "What is the credit hour requirement for earning a Master of Science in Advanced Computer Science?","Can you tell me the credit hour expectations for the MS in ACS?",
+                    "What is the minimum number of credit hours for an ACS MS degree?","How many credit hours do I need to fulfill for the ACS MS program?","How many credits must I earn to graduate with an MS in ACS?",
+                    "What is the credit hour threshold for the MS program in Advanced Computer Science?"
+                    
                 ],
                 "responses":[
                     "Thirty credit hours of graduate credits are required for completion of the M.S. in Applied Computer Science.",
-                    "30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours"
+                    "30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours","The M.S. program in Applied Computer Science has a 30-credit-hour completion requirement.",
+                    "For the M.S. in Applied Computer Science, 30 graduate credit hours are needed for completion.","To graduate with an M.S. in Applied Computer Science, you must have successfully earned 30 graduate credit hours.",
+                    "To earn an M.S. in Applied Computer Science, students must accrue a total of 30 graduate credit hours.","The M.S. in Applied Computer Science necessitates the completion of 30 graduate credit hours.",
+                    "For the M.S. in Applied Computer Science, 30 graduate credit hours are needed for completion","Achieving an M.S. in Applied Computer Science entails satisfying the 30-credit-hour mandate."
                 ]
             },
             {
@@ -98,14 +132,18 @@
                 "tag":"Intakes",
                 "patterns":[
                     "How many intakes are there in MS ACS Program?","How many intakes","no of intakes","number of intakes",
-                    "Number of intakes in a year?","How many intakes are there in MS ACS Course?"
+                    "Number of intakes in a year?","How many intakes are there in MS ACS Course?","What is the intake capacity for the MS ACS program?",
+                    "There are multiple intake periods for the MS ACS course.","The MS ACS program offers several intakes.","The MS ACS course has multiple intakes.","The MS ACS course accepts applications during various intake cycles."
                 ],
                 "responses":[
                     "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).",
                     "Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.",
                     "Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.",
                     "New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.",
-                    "In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference."
+                    "In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference.",
+                    "The MS ACS program offers three intakes: Spring, Summer, and Fall.","There are three intake periods for MS ACS: Spring, Summer, and Fall.",
+                    "MS ACS has intakes in Spring, Summer, and Fall.","The MS ACS course has admission opportunities in Spring, Summer, and Fall intakes.","You can apply for MS ACS during the Spring, Summer, or Fall intake."
+
                 ]
             },
             {
@@ -115,12 +153,16 @@
                     "Which courses can I take as part of the MS ACS Program?","Share the MS ACS Program course catalog with me.","I'd like to know the course offerings in the MS ACS Program.",
                     "Give me details about the academic courses in the MS ACS Program.","What's the course lineup for the MS ACS Program?", "Tell me about the subjects included in the MS ACS Program.",
                     "What courses are part of the MS ACS Program curriculum?","Can you provide a list of the courses available in the MS ACS Program?","what are the courses in MS ACS Course?",
-                    "course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?"
+                    "course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?","What courses are included in the MS ACS program?","List the courses offered in the MS ACS course.","Can you provide a rundown of the courses within the MS ACS program?",
+                    "I'd like to know the curriculum for the MS ACS course.","Please share the course catalog for the MS ACS program."
                 ],
                 "responses":[
                     "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
                     "The MS-ACS program provides a range of courses, including Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can explore subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and delve into emerging fields such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm ",
-                    "The MS-ACS program offers a comprehensive range of courses, encompassing Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing (iOS or Android), Application Design using Patterns And Frameworks, CS Graduate Directed Projects I and II, Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Mining \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  "
+                    "The MS-ACS program offers a comprehensive range of courses, encompassing Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing (iOS or Android), Application Design using Patterns And Frameworks, CS Graduate Directed Projects I and II, Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Mining \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
+                    "The MS-ACS program offers a variety of courses, such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). In addition, students have the opportunity to explore subjects like Application Design using Patterns And Frameworks, participate in CS Graduate Directed Projects I and II, and delve into emerging fields including Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. For more details about these courses, you can visit this link: https://www.nwmissouri.edu/csis/msacs/courses.htm.",
+                    "The MS-ACS curriculum includes a diverse range of courses, covering areas such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can choose to delve into subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and explore emerging fields like Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. For a comprehensive list of these courses, you can refer to the following link: https://www.nwmissouri.edu/csis/msacs/courses.htm",
+                    "The MS-ACS program boasts a diverse course selection, encompassing areas such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Moreover, students can opt to study subjects like Application Design using Patterns And Frameworks, participate in CS Graduate Directed Projects I and II, and explore emerging domains such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. To gain a more detailed understanding of these courses, you can visit the following link: https://www.nwmissouri.edu/csis/msacs/courses.htm."
                     
                 ]
             },
@@ -171,12 +213,14 @@
                 "patterns":[
                     "What is the required GPA ?","Required GPA for admission in ACS?","What GPA is considered acceptable for gaining admission to an ACS Course?",
                     "Is there a specific GPA requirement for entry into an ACS Course?","What is the minimum GPA required for admission to an ACS Course?","Is there a specific GPA cutoff for gaining admission to the ACS Course?",
-                    "What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?"
+                    "What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?","The ACS Course admission necessitates a minimum GPA.","Attaining admission to the ACS Course mandates a specific GPA threshold.","A GPA meeting certain criteria is required for enrollment in the ACS Course","To gain admission to the ACS Course, a prescribed GPA is necessary.",
+                    "Meeting the GPA requirement is essential for entrance into the ACS Course.","The ACS Course admission is contingent upon achieving a specified GPA."
                 ],
                 "responses":[
                     "The GPA should be above or Equal to 3.0","A GPA of 3.0 and above is necessary.","Your GPA should meet or exceed 3.0.","You must have a GPA of 3.0 or greater.",
                     "To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.",
-                    "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required."
+                    "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required.","A GPA equal to or surpassing 3.0 is required.","To qualify, the GPA should be 3.0 or higher.","An GPA of 3.0 or greater is necessary.",
+                    "The minimum GPA requirement is 3.0 or above.","The GPA threshold is set at 3.0 or higher."
                 ]
             },
             
