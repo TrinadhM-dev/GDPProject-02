@@ -132,14 +132,18 @@
                 "tag":"Intakes",
                 "patterns":[
                     "How many intakes are there in MS ACS Program?","How many intakes","no of intakes","number of intakes",
-                    "Number of intakes in a year?","How many intakes are there in MS ACS Course?"
+                    "Number of intakes in a year?","How many intakes are there in MS ACS Course?","What is the intake capacity for the MS ACS program?",
+                    "There are multiple intake periods for the MS ACS course.","The MS ACS program offers several intakes.","The MS ACS course has multiple intakes.","The MS ACS course accepts applications during various intake cycles."
                 ],
                 "responses":[
                     "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).",
                     "Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.",
                     "Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.",
                     "New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.",
-                    "In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference."
+                    "In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference.",
+                    "The MS ACS program offers three intakes: Spring, Summer, and Fall.","There are three intake periods for MS ACS: Spring, Summer, and Fall.",
+                    "MS ACS has intakes in Spring, Summer, and Fall.","The MS ACS course has admission opportunities in Spring, Summer, and Fall intakes.","You can apply for MS ACS during the Spring, Summer, or Fall intake."
+
                 ]
             },
             {
@@ -149,12 +153,16 @@
                     "Which courses can I take as part of the MS ACS Program?","Share the MS ACS Program course catalog with me.","I'd like to know the course offerings in the MS ACS Program.",
                     "Give me details about the academic courses in the MS ACS Program.","What's the course lineup for the MS ACS Program?", "Tell me about the subjects included in the MS ACS Program.",
                     "What courses are part of the MS ACS Program curriculum?","Can you provide a list of the courses available in the MS ACS Program?","what are the courses in MS ACS Course?",
-                    "course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?"
+                    "course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?","What courses are included in the MS ACS program?","List the courses offered in the MS ACS course.","Can you provide a rundown of the courses within the MS ACS program?",
+                    "I'd like to know the curriculum for the MS ACS course.","Please share the course catalog for the MS ACS program."
                 ],
                 "responses":[
                     "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
                     "The MS-ACS program provides a range of courses, including Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can explore subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and delve into emerging fields such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm ",
-                    "The MS-ACS program offers a comprehensive range of courses, encompassing Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing (iOS or Android), Application Design using Patterns And Frameworks, CS Graduate Directed Projects I and II, Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Mining \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  "
+                    "The MS-ACS program offers a comprehensive range of courses, encompassing Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing (iOS or Android), Application Design using Patterns And Frameworks, CS Graduate Directed Projects I and II, Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Mining \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
+                    "The MS-ACS program offers a variety of courses, such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). In addition, students have the opportunity to explore subjects like Application Design using Patterns And Frameworks, participate in CS Graduate Directed Projects I and II, and delve into emerging fields including Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. For more details about these courses, you can visit this link: https://www.nwmissouri.edu/csis/msacs/courses.htm.",
+                    "The MS-ACS curriculum includes a diverse range of courses, covering areas such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can choose to delve into subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and explore emerging fields like Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. For a comprehensive list of these courses, you can refer to the following link: https://www.nwmissouri.edu/csis/msacs/courses.htm",
+                    "The MS-ACS program boasts a diverse course selection, encompassing areas such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Moreover, students can opt to study subjects like Application Design using Patterns And Frameworks, participate in CS Graduate Directed Projects I and II, and explore emerging domains such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. To gain a more detailed understanding of these courses, you can visit the following link: https://www.nwmissouri.edu/csis/msacs/courses.htm."
                     
                 ]
             },
