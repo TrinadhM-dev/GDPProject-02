@@ -213,12 +213,14 @@
                 "patterns":[
                     "What is the required GPA ?","Required GPA for admission in ACS?","What GPA is considered acceptable for gaining admission to an ACS Course?",
                     "Is there a specific GPA requirement for entry into an ACS Course?","What is the minimum GPA required for admission to an ACS Course?","Is there a specific GPA cutoff for gaining admission to the ACS Course?",
-                    "What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?"
+                    "What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?","The ACS Course admission necessitates a minimum GPA.","Attaining admission to the ACS Course mandates a specific GPA threshold.","A GPA meeting certain criteria is required for enrollment in the ACS Course","To gain admission to the ACS Course, a prescribed GPA is necessary.",
+                    "Meeting the GPA requirement is essential for entrance into the ACS Course.","The ACS Course admission is contingent upon achieving a specified GPA."
                 ],
                 "responses":[
                     "The GPA should be above or Equal to 3.0","A GPA of 3.0 and above is necessary.","Your GPA should meet or exceed 3.0.","You must have a GPA of 3.0 or greater.",
                     "To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.",
-                    "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required."
+                    "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required.","A GPA equal to or surpassing 3.0 is required.","To qualify, the GPA should be 3.0 or higher.","An GPA of 3.0 or greater is necessary.",
+                    "The minimum GPA requirement is 3.0 or above.","The GPA threshold is set at 3.0 or higher."
                 ]
             },
             
