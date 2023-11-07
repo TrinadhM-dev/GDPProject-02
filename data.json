@@ -232,17 +232,20 @@
                     "When do Spring semester applications need to be in by?"
                 ],
                 "responses":[
-                    "The last day to appply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to apply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester.",
+                    "The last day to apply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to apply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester.",
                     "Spring semester applications must be submitted by November 1.","The final date to apply for the Spring semester is November 1.","The deadline for Spring semester applications falls on November 1.","You have until November 1 to submit your Spring semester application.","The cutoff for Spring semester applications is November 1.","Remember to apply for the Spring semester by November 1.","The application window for the Spring semester closes on November 1.","November 1 marks the end of Spring semester application submissions.","Don't forget, the Spring semester application period ends on November 1."
                 ]
             },
             {
                 "tag":"DeadlinesForFallIntake",
                 "patterns":[
-                    "What's the last day to apply for the Fall semester?","By when should I have my Fall Intake application completed?","What's the cutoff date for fall Intake applications?","What is the due date for applying to the fall Intake?","When is the fall Intake application deadline?","What is the Deadline for fall Intake?"
+                    "What's the last day to apply for the Fall semester?","By when should I have my Fall Intake application completed?","What's the cutoff date for fall Intake applications?","What is the due date for applying to the fall Intake?","When is the fall Intake application deadline?","What is the Deadline for fall Intake?",
+                    "When is the application deadline for the Fall semester?","What is the final date for submitting applications for the Fall semester?","When is the last day I can apply for the Fall semester?","When does the application period end for the Fall semester?","What is the application cutoff date for the Fall semester?"
                 ],
                 "responses":[
-                    "The last day to apply for fall semester is May 1.","The last day to apply for fall semester is first day of May.","05/01","The last day to apply for fall semester is May first.","The start of May is last day to apply for fall semester.","The beginning of May  is last day to apply for fall semester.","One May is last day to apply for fall semester.","01/05 (in some date formats) is last day to apply for fall semester.","May 1 is last day to apply for fall semester.","1st of May is last day to apply for fall semester."
+                    "The last day to apply for fall semester is June 15.","The last day to apply for fall semester is  15th of June.","The fall semester application deadline is June 15.","June 15 is the application cutoff for the fall semester.","For the fall semester, the final application date is June 15.","You must complete your fall semester application by June 15.",
+                    "The deadline for fall semester applications is June 15.","June 15 marks the last day to apply for the fall semester.","The application period for the fall semester ends on June 15.","June 15 is the closing date for fall semester applications.","To be considered for the fall semester, your application should be submitted by June 15","The fall semester application process concludes on June 15."
+                    
                 ]
             },
             {
