@@ -4,7 +4,7 @@
                 "patterns": [
                     "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see",
                     "hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy","hola",
-                    "how are you","How's everything?","Hey, how's it going?","Hi, how are you?","What's up?","Good day!"
+                    "how are you","How's everything?","Hey, how's it going?","Hi, how are you?","What's up?","Good day!","hyy"
                 ],
                 "responses": [
                     "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?",
@@ -227,10 +227,13 @@
             {
                 "tag":"DeadlinesForSpringIntake",
                 "patterns":[
-                    "What's the last day to apply for the Spring semester?","By when should I have my Spring Intake application completed?","What's the cutoff date for Spring Intake applications?","What is the due date for applying to the Spring Intake?","When is the Spring Intake application deadline?","What is the Deadline for Spring Intake?"
+                    "What's the last day to apply for the Spring semester?","By when should I have my Spring Intake application completed?","What's the cutoff date for Spring Intake applications?","What is the due date for applying to the Spring Intake?","When is the Spring Intake application deadline?","What is the Deadline for Spring Intake?",
+                    "What's the closing date for Spring semester applications?","By what date must I submit my application for the Spring semester?","When does the Spring semester application period end?","Could you please tell me the final day to apply for the Spring semester?","When do Spring semester applications close?","When is the last opportunity to apply for the Spring semester?",
+                    "When do Spring semester applications need to be in by?"
                 ],
                 "responses":[
-                    "The last day to appply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to appply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester."
+                    "The last day to appply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to apply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester.",
+                    "Spring semester applications must be submitted by November 1.","The final date to apply for the Spring semester is November 1.","The deadline for Spring semester applications falls on November 1.","You have until November 1 to submit your Spring semester application.","The cutoff for Spring semester applications is November 1.","Remember to apply for the Spring semester by November 1.","The application window for the Spring semester closes on November 1.","November 1 marks the end of Spring semester application submissions.","Don't forget, the Spring semester application period ends on November 1."
                 ]
             },
             {
