@@ -272,7 +272,8 @@
                     "What is the job placement rate for graduates?","What percentage of your graduates find jobs within a certain period after graduation?","What's the rate of successful job placements among your university's graduates?","Could you provide data on the employment status of students shortly after they graduate?","What can you tell me about the job prospects for recent graduates of your institution?"
                 ],
                 "responses":[
-                    "Job placement rate for graduates is 91%","Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.","Out of all our graduates, 91% find jobs."
+                    "Job placement rate for graduates is 91%","Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.","Out of all our graduates, 91% find jobs.","The impressive job placement rate of 91% for program graduates underscores the institution's track record in helping students embark on successful careers shortly after completing their studies.","With a job placement rate of 91%, the institution demonstrates its commitment to preparing students for the job market, as the overwhelming majority of its alumni secure employment after graduation.","A significant achievement, the program maintains a job placement rate of 91%, signifying that nearly all of its recent graduates have successfully transitioned into the workforce.","The program boasts a job placement rate of 91%, meaning that 91% of its recent graduates have found employment within a specified timeframe after completing their studies."
+
                 ]
             },
             {
@@ -298,7 +299,8 @@
                 ],
                 "responses":[
                     "The student-faculty ratio at this university is 22:1 in ACS.","In ACS, there are 22 students for every faculty member.",
-                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member." 
+                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member." ,
+                    "The university maintains a student-faculty ratio of 22 to 1 in the ACS department.","At this university, the student-faculty ratio in ACS is 22 students per faculty member.","In the ACS department, the student-to-faculty ratio stands at 22:1."
                 ]
 
                 
@@ -319,7 +321,12 @@
                     
                 ],
                 "responses":[
-                    " Admission criteria, requirements, and policies can change over time, and they may vary between  programs. Therefore, I recommend visiting the official website of Northwest Missouri State University, Please find the details in the given Link- https://www.nwmissouri.edu/csis/msacs/apply/index.htm"    
+                    " Admission criteria, requirements, and policies can change over time, and they may vary between  programs. Therefore, I recommend visiting the official website of Northwest Missouri State University, Please find the details in the given Link- https://www.nwmissouri.edu/csis/msacs/apply/index.htm",
+                    "As admission criteria, requirements, and policies can evolve and vary among programs, I advise you to check the official website of Northwest Missouri State University for the most accurate and program-specific details. You can find the information you're looking for by visiting this link: https://www.nwmissouri.edu/csis/msacs/apply/index.htm",
+                    "It's important to note that admission criteria, requirements, and policies can change and may differ between programs at Northwest Missouri State University. For the most current and program-specific information, I recommend visiting the official university website. You can access the details you're seeking by clicking on this link: https://www.nwmissouri.edu/csis/msacs/apply/index.htm.",
+                    "It's important to understand that admission criteria, requirements, and policies can undergo changes and may vary between programs at Northwest Missouri State University. To obtain the most current and program-specific details, I recommend visiting the official university website. You can find the information you're seeking by clicking on the following link: https://www.nwmissouri.edu/csis/msacs/apply/index.htm."
+
+
                 ]
 
                 
