@@ -294,7 +294,13 @@
                     "What is the job placement rate for graduates?","What percentage of your graduates find jobs within a certain period after graduation?","What's the rate of successful job placements among your university's graduates?","Could you provide data on the employment status of students shortly after they graduate?","What can you tell me about the job prospects for recent graduates of your institution?"
                 ],
                 "responses":[
-                    "Job placement rate for graduates is 91%","Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.","Out of all our graduates, 91% find jobs.","The impressive job placement rate of 91% for program graduates underscores the institution's track record in helping students embark on successful careers shortly after completing their studies.","With a job placement rate of 91%, the institution demonstrates its commitment to preparing students for the job market, as the overwhelming majority of its alumni secure employment after graduation.","A significant achievement, the program maintains a job placement rate of 91%, signifying that nearly all of its recent graduates have successfully transitioned into the workforce.","The program boasts a job placement rate of 91%, meaning that 91% of its recent graduates have found employment within a specified timeframe after completing their studies."
+                    "Job placement rate for graduates is 91%",
+                    "Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.",
+                    "Out of all our graduates, 91% find jobs.",
+                    "The impressive job placement rate of 91% for program graduates underscores the institution's track record in helping students embark on successful careers shortly after completing their studies.",
+                    "With a job placement rate of 91%, the institution demonstrates its commitment to preparing students for the job market, as the overwhelming majority of its alumni secure employment after graduation.",
+                    "A significant achievement, the program maintains a job placement rate of 91%, signifying that nearly all of its recent graduates have successfully transitioned into the workforce.",
+                    "The program boasts a job placement rate of 91%, meaning that 91% of its recent graduates have found employment within a specified timeframe after completing their studies."
 
                 ]
             },
@@ -397,13 +403,17 @@
                 "tag":"College fees per credit in ACS",
                 "patterns":[
                  "What is the college fees per credit for ACS students in this university", "The per-credit cost for the ACS program at this university?","What is the university's ACS program charges fees on a per-credit basis?", 
-                 "What is the cost of each credit for the ACS program at this institution.","How much is  the college fees per credit for the ACS program in this university."
+                 "What is the cost of each credit for the ACS program at this institution.","How much is  the college fees per credit for the ACS program in this university.","What is the cost per credit for the ACS program at this university?",
+                 "Could you provide information regarding the per-credit fee for the ACS program at this university?","May I inquire about the cost per credit for the ACS program at this university?",
+                 "What's the price per credit for the ACS program at this university?","Could you please specify the per-credit tuition cost for the ACS program at this university?","I'm interested in knowing the per-credit tuition rate for the ACS program at this university.",
+                 "What's the per-credit charge for the ACS program at this university?"
                 ],
                 "responses":[
                     "College fees per credit for ACS in this university is $535.30.","Tuition for a single credit in the ACS program at this university is $535.30.",
                     "One credit hour in the ACS program at this university costs $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.",
                     "The fee for one credit in the ACS program at this university is $535.30."	,"To enroll in the Associate in Computer Science program, you will need to pay $535.30 for each credit.","Students are required to budget $535.30 for each credit they take in the ACS program.",
-                    "The cost of pursuing one credit in the ACS program stands at $535.30."
+                    "The cost of pursuing one credit in the ACS program stands at $535.30.","To enroll in one credit of the ACS program, you'll need to pay $535.30.","The ACS program's credit rate stands at $535.30.","You'll be billed $535.30 for one credit in the ACS program.",
+                    "Each credit within the ACS program has a price tag of $535.30.","It costs $535.30 for each credit in the ACS program."
 
                 ]
                 
