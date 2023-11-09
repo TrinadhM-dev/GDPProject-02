@@ -260,10 +260,30 @@
             {
                 "tag":"OnCampusJobs",
                 "patterns":[
-                    "Can you tell me about the employment possibilities for students on campus?","Are there any job openings for students within the university?","What are the available job positions for students who want to work on campus?","What on-campus job options are there for students?","What are the job opportunities available for students in on campus?"
+                    "Can you tell me about the employment possibilities for students on campus?",
+                    "Are there any job openings for students within the university?",
+                    "What are the available job positions for students who want to work on campus?",
+                    "What on-campus job options are there for students?",
+                    "What are the job opportunities available for students in on campus?",
+                    "Are there any student employment services or resources on campus? ",
+                    "Can you tell me about work-study programs for students at our campus?",
+                    "Do you have any information on student employment initiatives on campus?",
+                    "Are there specific departments or offices that typically hire student employees?",
+                    "Are there any specialized student employment programs or positions available at our university?",
+                    "Are there any student job fairs or career events at our university?",
+                    "Can you tell me about the availability of work-study positions for students at our university?                    "
                 ],
                 "responses":[
-                    "Yes, You can find the jobs in Campus Dining, Graduate Assistantship/ Teaching Assistantship, Parking Assistant, Librarian, Shuttle Drivers","Certainly, there are job openings available in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and Shuttle Driving, among other options.","Indeed, you'll discover employment opportunities in areas like Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driving.","You'll find job prospects within Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other possibilities."
+                    "Yes, You can find the jobs in Campus Dining, Graduate Assistantship/ Teaching Assistantship, Parking Assistant, Librarian, Shuttle Drivers",
+                    "Certainly, there are job openings available in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and Shuttle Driving, among other options.",
+                    "Indeed, you'll discover employment opportunities in areas like Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driving.",
+                    "You'll find job prospects within Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other possibilities.",
+                    "Students can explore job openings in Campus Dining, Graduate Assistantships, Teaching Assistantships, Parking Assistance, Library roles, and as Shuttle Drivers, along with various other potential positions.",
+                    "On-campus job prospects encompass roles in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other avenues for student employment.",
+                    "Opportunities for employment can be found in Campus Dining, Graduate Assistantships and Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other potential options.",
+                    "Employment options for students on campus encompass positions in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driver positions, among numerous other opportunities.",
+                    "Within the university, students can consider roles in Campus Dining, Graduate Assistantships, Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other potential employment paths.",
+                    "Students have the opportunity to explore employment possibilities in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, in addition to other potential avenues."
                 ]
             },
             {
@@ -295,7 +315,9 @@
                 "tag":"Student-Faculty Ratio",
                 "patterns":[
                  "What is the student to faculty ratio in ACS?", "What is the current student-faculty ratio in ACS?","Can you provide me with the student-faculty ratio for ACS?", 
-                 "Is there a specific student-to-faculty ratio for the ACS course?","What is the average class size at ACS in terms of students per faculty member?"
+                 "Is there a specific student-to-faculty ratio for the ACS course?","What is the average class size at ACS in terms of students per faculty member?",
+                 "What is the typical number of students per professor in ACS classrooms?","Can you tell me about the instructor-student ratios for ACS classes?"
+
                 ],
                 "responses":[
                     "The student-faculty ratio at this university is 22:1 in ACS.","In ACS, there are 22 students for every faculty member.",
