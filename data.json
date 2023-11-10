@@ -440,6 +440,28 @@
                    "Northwest Missouri State University, a public institution founded in 1905, holds the #104 position among Regional Universities in the Midwest for the 2022-2023 U.S. News & World Report's Best Colleges rankings, while also being ranked at #1721 by UniRank."
 	            ]
     
+            },
+            {
+                "tag":"Academic Transcripts",
+                "patterns":[
+                    "How do I check my academic transcripts",
+                    "Where can I find my transcripts?",
+                    "What is the process for viewing my academic transcripts?",
+                    "Where do I go to review my academic transcripts?",
+                    "How do I access my semester grades?",
+                    "What steps should I follow to obtain my academic transcript?"
+
+                ],
+                "responses":[
+                    "As a current student you need to login to CATPAWS account and follow the below steps for accessing academic transcripts:1.Click on the 'Student' tab. 2.Select 'Student Records'. 3.Select 'Academic Transcript'.4.Select 'All Levels' and 'Web' type.5.Click 'Submit'. View, screenshot, print from your browser, or copy/paste all data into a Microsoft Excel file.",
+                    "To view your academic transcripts, log in to your CATPAWS account and follow these steps: Click on the 'Student' tab, select 'Student Records,' then 'Academic Transcript.' After that, choose 'All Levels' and 'Web' type, and click 'Submit.' You can view, take a screenshot, print from your browser, or copy/paste all data into a Microsoft Excel file.",
+                    "You can access your academic transcripts by logging in to CATPAWS. Start by clicking on the 'Student' tab, followed by 'Student Records,' and then select 'Academic Transcript.' Ensure you choose 'All Levels' and 'Web' type, and finally, click 'Submit.' You can then view, screenshot, print, or copy/paste all data into a Microsoft Excel file.",
+                    "To retrieve your academic transcripts, the process begins with logging into your CATPAWS account. Click the 'Student' tab, then proceed to 'Student Records,' and select 'Academic Transcript.' Make sure to choose 'All Levels' and 'Web' type, and then click 'Submit.' Afterward, you have the flexibility to view, capture a screenshot, print, or copy/paste all data into a Microsoft Excel file.",
+                    "Accessing your academic transcripts is straightforward via CATPAWS. Once you've logged in, go to the 'Student' tab, access 'Student Records,' and select 'Academic Transcript.' Remember to opt for 'All Levels' and 'Web' type, and finish by clicking 'Submit.' You can then review, take a screenshot, print, or copy/paste all the data into a Microsoft Excel file",
+                    "For accessing your academic transcripts, begin by logging in to your CATPAWS account. Click on the 'Student' tab, proceed to 'Student Records,' and then select 'Academic Transcript.' Be sure to choose 'All Levels' and 'Web' type, and lastly, click 'Submit.' You can then choose to view the transcripts, take a screenshot, print them directly from your browser, or copy/paste the data into a Microsoft Excel file.",
+                    "Accessing your academic transcripts is a breeze with CATPAWS. Log in, then click on the 'Student' tab, and go to 'Student Records.' From there, select 'Academic Transcript.' Remember to pick 'All Levels' and 'Web' type, and click 'Submit.' You'll then have the option to view your transcripts, capture screenshots, print them from your browser, or copy/paste all data into a Microsoft Excel file."
+
+                ]
             }   
             
             
