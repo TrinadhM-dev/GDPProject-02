@@ -363,6 +363,19 @@
                 
             },
             {
+                "tag":"Wellness Center",
+                 "patterns":[
+                    "Is there any Health Center in Northwest?","Can you provide details about the Wellness Center?","Health Center",
+                    "Could you please outline the information about health Center at Northwest ?","Can you provide me with information on health-center"
+                    
+
+                 ],
+                 "responses":[
+                    "Wellness Services takes a holistic approach to health, and believes it involves a balance between mind, body, and spirit.  We provide services that contribute to all eight dimensions of wellness - Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial."
+
+                 ]
+            },
+            {
                 "tag":"Standardized test score requirements",
                  "patterns":[
                     "What are the standardized test score requirements for ACS?","Can you provide details about the required test scores for ACS?","Are there minimum test score requirements for ACS?","What weight do test scores carry in the ACS admissions decision?",
