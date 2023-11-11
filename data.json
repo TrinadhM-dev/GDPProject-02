@@ -482,7 +482,22 @@
                     "Accessing your academic transcripts is a breeze with CATPAWS. Log in, then click on the 'Student' tab, and go to 'Student Records.' From there, select 'Academic Transcript.' Remember to pick 'All Levels' and 'Web' type, and click 'Submit.' You'll then have the option to view your transcripts, capture screenshots, print them from your browser, or copy/paste all data into a Microsoft Excel file."
 
                 ]
-            }   
+            } ,
+            {
+                "tag":"Duration of MS-ACS",
+                "patterns":[
+                   "What is the duration of the MS ACS program?","What is the typical length of the MS ACS program?","Could you provide information on the expected duration of the MS ACS program?",
+                   "How long does the MS ACS program usually take to complete?","What is the anticipated time frame for completing the MS ACS program?","Could you clarify the duration requirements for the MS ACS program?",
+                   "What is the standard time commitment for the MS ACS program?","How much time is typically needed to finish the MS ACS program?","Can you outline the expected duration of studies for the MS ACS program?"
+
+                ],
+                "responses":[
+                    "The MS ACS program is designed to be completed within a 16-month timeframe.","Students can expect to finish the MS ACS program in a duration of 16 months.","The standard duration for the MS ACS program is 16 months.",
+                    "Completing the MS ACS program typically takes 16 months.","The MS ACS program is structured to be accomplished in 16 months.","A 16-month timeframe is allotted for the MS ACS program.",
+                    "The MS ACS program is expected to be completed in 16 months.","The MS ACS program has a duration of 16 months."
+
+                ]
+            }     
             
             
 
