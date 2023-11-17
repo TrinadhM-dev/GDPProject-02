@@ -1,0 +1,95 @@
+{
+    "intents": [
+        {
+            "tag": "Welcome",
+            "patterns": ["Hi", "Hello", "How are you"],
+            "responses": ["Hello! How can I assist you?", "Hi there! What can I help you with?"]
+        },
+        {
+            "tag": "FallBack",
+            "patterns": ["I didn't catch that", "Can you repeat?","","",""],
+            "responses": ["Sorry, I didn't understand. Could you rephrase?", "I'm not sure I follow. Can you clarify?"]
+        },
+        {
+            "tag": "CourseOverview",
+            "patterns": ["Tell me about the course", "Course details"],
+            "responses": ["The course covers topics such as...", "It's a comprehensive program focusing on..."]
+        },
+        {
+            "tag": "ACSProfessors",
+            "patterns": ["Who are the professors?", "Faculty in the course"],
+            "responses": ["The course is taught by experts like...", "Our faculty includes professionals such as..."]
+        },
+        {
+            "tag": "Assistance for graduates",
+            "patterns": ["Graduate support available?", "Help for students"],
+            "responses": ["We offer assistance like...", "Graduates can benefit from services including..."]
+        },
+        {
+            "tag": "CreditHours",
+            "patterns": ["Credit hours required?", "How many credits for completion?"],
+            "responses": ["The program requires X credit hours.", "You need X credits to complete the program."]
+        },
+        {
+            "tag": "TuitionFee",
+            "patterns": ["Cost of the program?", "Tuition fees?"],
+            "responses": ["The total tuition fee is X amount.", "It costs X dollars for the entire program."]
+        },
+        {
+            "tag": "Intakes",
+            "patterns": ["When can I enroll?", "Admission intakes?"],
+            "responses": ["Enrollment is open for Spring, Summer, and Fall.", "We have three intakes each year."]
+        },
+        {
+            "tag": "ACSCourses",
+            "patterns": ["Available courses?", "What will I study?"],
+            "responses": ["Courses include X, Y, and Z.", "You'll study various subjects such as..."]
+        },
+        {
+            "tag": "Electives",
+            "patterns": ["Elective courses offered?", "Choice of electives?"],
+            "responses": ["Electives available are...", "You can choose from electives like..."]
+        },
+        {
+            "tag": "Prerequisites",
+            "patterns": ["Any prerequisites?", "What do I need to qualify?"],
+            "responses": ["Prerequisites include...", "You need to have completed..."]
+        },
+        {
+            "tag": "RequiredGPA",
+            "patterns": ["Minimum GPA?", "GPA requirements?"],
+            "responses": ["The required GPA is X.", "You should have a GPA of at least X."]
+        },
+        {
+            "tag": "DeadlinesForSpringIntake",
+            "patterns": ["Spring intake deadline?", "When to apply for Spring?"],
+            "responses": ["The deadline for Spring intake is...", "Apply by X date for Spring semester."]
+        },
+        {
+            "tag": "DeadlinesForFallIntake",
+            "patterns": ["Fall intake deadline?", "Application date for Fall?"],
+            "responses": ["The Fall intake deadline is...", "Submit your application by X for Fall."]
+        },
+        {
+            "tag": "DeadlinesForSummerIntake",
+            "patterns": ["Summer intake deadline?", "Last date for Summer application?"],
+            "responses": ["Apply by X for Summer intake.", "The deadline for Summer is..."]
+        },
+        {
+            "tag": "OnCampusJobs",
+            "patterns": ["Jobs on campus?", "Can I work at the university?"],
+            "responses": ["On-campus jobs include...", "You can find work in areas such as..."]
+        },
+        {
+            "tag": "JobPlacementRate",
+            "patterns": ["How many get jobs after graduation?", "Placement rate?"],
+            "responses": ["The job placement rate is X%.", "About X% of graduates find jobs."]
+        },
+        {
+            "tag": "CS/IS International Graduate Achievement Scholarship",
+            "patterns": ["Tell me about the scholarship", "Scholarship details?"],
+            "responses": ["The scholarship offers...", "Eligible students can receive..."]
+        }
+    ]
+}
+           
