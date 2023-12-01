@@ -1,0 +1,507 @@
+{"intents": [
+            {
+                "tag": "Welcome",
+                "patterns": [
+                    "just going to say hi","heya", "hello hi", "howdy","hey there", "hi there","greetings","hey","long time no see",
+                    "hello", "lovely day isn't it", "I greet you","hello again","hi", "hello there","A good day",  "hy","hola",
+                    "how are you","How's everything?","Hey, how's it going?","Hi, how are you?","What's up?","Good day!","hyy"
+                ],
+                "responses": [
+                    "Hi! How are you doing?","Hello! How can I help you?","Good day! What can I do for you today?",
+                    "Greetings! How can I assist?","Hello and welcome!","Hello, and thank you for reaching out!","Hello! How's your well-being?","Hi! How's your day treating you?","Greetings! How are you feeling?","Hi! How's everything on your end?","Hello! How are you?"
+                ]
+            },
+            {
+                "tag": "FallBack",
+                "patterns": ["","","","","","","","","","","","","","","","","","","","","",""],
+                "responses": [
+                    "I didn't get that. Can you say it again?","Sorry, could you say that again?","Sorry, I didn't get that. Can you rephrase?","I missed that, say that again?"
+                ]
+            },
+            {
+                "tag":"CourseOverview",
+                "patterns":[
+                    "Tell me about the Computer Science program.","Please Tell me about the course overview.",
+                    "What's the general course overview?","Can you provide a summary of the course content?",
+                    "please provide me course overview.","Tell me about the course overview","Tell me about the course",
+                    "course overview","Please provide course overview","credit hours required?","tell me about the course overview",
+                    "course overview","tell the course curriculum","Could you provide information about the Computer Science program?","I'd like to learn more about the Computer Science program. Can you tell me about it?","What can you tell me about the Computer Science program?","Please give me details on the Computer Science program.","I'm interested in the Computer Science program. Could you share some information?","Tell me more about the Computer Science program, please.","Could you describe the Computer Science program?","I'm curious about the Computer Science program. Can you give me an overview?","What's there to know about the Computer Science program?","Share some insights about the Computer Science program, if you would."
+                ],
+                "responses":[
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science is a 16-month program that offers a hands-on, professional education in today's high demand areas.",
+                    "A Master of Science in Applied Computer Science (MS ACS) program at Northwest Missouri State University likely includes core courses in computer science, advanced programming, and database management. Students can choose a specialized track, such as artificial intelligence, cybersecurity, or data science, focusing on relevant topics and programming languages.",
+                    "Northwest Missouri State University offers a 16-month Master of Science in Applied Computer Science program, providing a hands-on, career-focused education in high-demand fields.",
+                    "The Master of Science in Applied Computer Science program at Northwest Missouri State University spans 16 months and is designed to meet the current demands of the industry with a practical approach.",
+                    "At Northwest Missouri State University, the Master of Science in Applied Computer Science program is an intensive 16-month program tailored to the high-demand sectors, offering a practical education.",
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science program, completed in just 16 months, delivers a hands-on, industry-relevant education in areas with significant job opportunities.",
+                    "In the Master of Science in Applied Computer Science program at Northwest Missouri State University, students can expect a 16-month immersive experience that aligns with the current needs of the industry.",
+                    "Northwest Missouri State University's 16-month Master of Science in Applied Computer Science program provides a practical, career-oriented education in today's sought-after fields.",
+                    "The Master of Science in Applied Computer Science program at Northwest Missouri State University is a 16-month program designed to address the immediate needs of the job market with hands-on training.",
+                    "Northwest Missouri State University's Master of Science in Applied Computer Science program, spanning 16 months, equips students with practical skills in areas of high industry demand."
+                ]
+            },
+            {
+                "tag":"ACSProfessors",
+                "patterns":[
+                    "Provide the names of some instructors that are in ACS Course.","Who are the lecturers present in MS ACS?",
+                    "Who are the professors for MS ACS Course?","Tell me the names of Professors, Who teaches in MS ACS?",
+                    "Who are the lecturers present in MS ACS?","Tell me the names of Professors, Who teaches in MS ACS?",
+                    "who are lecturers present in MS ACS?","provide the names of some instructors that are in ACS Course.",
+                    "Who are lectures that teach in ACS Program?","who are the professors",
+                    "Who are lecturers that teach in ACS Program?","who teaches in MS ACS Course",
+                    "provide the names of some instructors that are in ACS Course","who are instructors in ACS Course?",
+                    "professors","instructors in acs course","Who are the instructors teaching in the ACS course?","Can you provide me with the names of the professors in the MS ACS program?",
+                    "I'm interested in knowing the lecturers for the MS ACS course. Who are they?","Could you list the faculty members who are teaching in the Master of Science in Applied Computer Science program?",
+                    "I'd like to learn about the educators in the MS ACS course. Can you share their names?","Please tell me the names of the instructors for the ACS program.",
+                    "Who makes up the teaching staff for the MS ACS course?","Can you give me the names of the lecturers present in the MS ACS program?",
+                    "I'm curious about the faculty for the ACS course. Could you provide their names?","Who are the professors responsible for teaching in the MS ACS program?"
+                ],
+                "responses":[
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, Chandramouli",
+                    "The instructors for the course include Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli are the educators involved in the course.",
+                    "You'll be learning from Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli during the course.",
+                    "The course is taught by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Instructors for the course encompass Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "The course's teaching staff includes Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli are the individuals responsible for the course instruction.",
+                    "Your course will be led by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli.",
+                    "The course is directed by Dr. Ajay Bandi, Dr. Mark Chai, Dr. Ratan Lal, Dr. Chetti Prasad, and Chandramouli."
+                ]
+            },
+{
+    "tag":"Assistance for graduates ",
+    "patterns":[
+        "is there any assitance for graduate school applications? ","Can I get help with my graduate school application process?","Can I receive assistance in navigating the graduate school admission process?",
+        "Do graduate programs offer guidance or counseling for application preparation?","What kind of guidance is available for international students applying to graduate school?","Can I find information on application assistance for graduate programs? "
+        
+        
+    ],
+    "responses":[
+        "University Advising Services",
+        "Faculty Advisors",
+        "Faculty Advisors",
+        "Professional Associations","University Advising Services can provide valuable guidance and counseling to assist with application preparation for graduate programs.","Faculty Advisors are a valuable resource when it comes to receiving guidance and counseling for graduate program application preparation.",
+        "Seeking advice from Faculty Advisors is a beneficial way to receive support and counseling during the process of preparing for graduate program applications.","Professional Associations can also offer guidance and counseling services to individuals looking to prepare for graduate program applications.",
+        "Guidance and counseling for graduate program application preparation can be accessed through University Advising Services.","Faculty Advisors serve as a reliable source of guidance and counseling for those getting ready to apply for graduate programs.","When preparing for graduate program applications, it's worth consulting Faculty Advisors for valuable guidance and counseling.",
+        "When preparing for graduate program applications, it's worth consulting Faculty Advisors for valuable guidance and counseling.","Professional Associations can be a source of assistance, offering guidance and counseling to individuals preparing for graduate program applications."
+    ]
+}
+
+            ,{
+                "tag":"CreditHours",
+                "patterns":[
+                    "How many Credit Hours are needed to complete MS in ACS?","How many Credit hours are required for  completion of the M.S. in Applied Computer Science.?",
+                    "credit hours required?","credit hours needed","credit hours","how many credit hours required?","how many credit hours",
+                    "What is the credit hour quota for an MS in ACS program?","credit hours required","what are credit hours","What is the total number of credit hours necessary to obtain a Master's degree in Advanced Computer Science? ",
+                    "What is the credit hour requirement for earning a Master of Science in Advanced Computer Science?","Can you tell me the credit hour expectations for the MS in ACS?",
+                    "What is the minimum number of credit hours for an ACS MS degree?","How many credit hours do I need to fulfill for the ACS MS program?","How many credits must I earn to graduate with an MS in ACS?",
+                    "What is the credit hour threshold for the MS program in Advanced Computer Science?"
+                    
+                ],
+                "responses":[
+                    "Thirty credit hours of graduate credits are required for completion of the M.S. in Applied Computer Science.",
+                    "30 Credit Hours are needed to graduate from MS in ACS program.","30 Credit Hours","Thirty Credit Hours","The M.S. program in Applied Computer Science has a 30-credit-hour completion requirement.",
+                    "For the M.S. in Applied Computer Science, 30 graduate credit hours are needed for completion.","To graduate with an M.S. in Applied Computer Science, you must have successfully earned 30 graduate credit hours.",
+                    "To earn an M.S. in Applied Computer Science, students must accrue a total of 30 graduate credit hours.","The M.S. in Applied Computer Science necessitates the completion of 30 graduate credit hours.",
+                    "For the M.S. in Applied Computer Science, 30 graduate credit hours are needed for completion","Achieving an M.S. in Applied Computer Science entails satisfying the 30-credit-hour mandate."
+                ]
+            },
+            {
+                "tag":"TuitionFee",
+                "patterns":[
+                    "Is there a payment schedule or installment plan for managing the graduate program's expenses?",
+                    "What resources or guidance are available to help graduate students with financial planning and budgeting?",
+                    "Are there any additional fees or expenses beyond tuition that I should consider when calculating the cost?",
+                    "Do the tuition fees differ for in-state and out-of-state graduate students?",
+                    "Can you break down the components that contribute to the overall graduate cost?",
+                    "Are there any scholarships or financial aid options available to help offset the graduate program's cost?",
+                    "What is the expected financial commitment for pursuing a graduate degree?",
+                    "Could you provide an estimate of the total expenses for graduate studies?",
+                    "What is the Estimated Graduate Cost?", "tuition fee","Tuition Fee for ACS Course?","tuitionFee"
+                ],
+                "responses":[
+                    "$16,802.20","Total Graduate Cost for ACS is $16,802.20","The complete cost for the ACS graduate program amounts to $16,802.20.",
+                    "The ACS graduate program entails a total cost of $16,802.20","The overall expense for the ACS graduate program is $16,802.20.",
+                    "For the ACS graduate program, the total financial commitment is $16,802.20.","Students pursuing the ACS program should budget for a sum of $16,802.20."
+                ]
+            },
+            {
+                "tag":"Intakes",
+                "patterns":[
+                    "How many intakes are there in MS ACS Program?","How many intakes","no of intakes","number of intakes",
+                    "Number of intakes in a year?","How many intakes are there in MS ACS Course?","What is the intake capacity for the MS ACS program?",
+                    "There are multiple intake periods for the MS ACS course.","The MS ACS program offers several intakes.","The MS ACS course has multiple intakes.","The MS ACS course accepts applications during various intake cycles."
+                ],
+                "responses":[
+                    "There are Three intakes for MS ACS i.e., Spring, Summer, and Fall.","You can apply for any of the three semesters in a year. (Spring, Summer, Fall).",
+                    "Students have the option to start their ACS program in spring, summer, or fall, offering flexibility in enrollment.",
+                    "Intakes for the ACS program are available in spring, summer, and fall, allowing students to plan their enrollment accordingly.",
+                    "New students are admitted to the ACS program in the spring, summer, and fall intakes, providing flexibility in scheduling.",
+                    "In the ACS program, you can commence your studies in the spring, summer, or fall intake, depending on your preference.",
+                    "The MS ACS program offers three intakes: Spring, Summer, and Fall.","There are three intake periods for MS ACS: Spring, Summer, and Fall.",
+                    "MS ACS has intakes in Spring, Summer, and Fall.","The MS ACS course has admission opportunities in Spring, Summer, and Fall intakes.","You can apply for MS ACS during the Spring, Summer, or Fall intake."
+
+                ]
+            },
+            {
+                "tag":"ACSCourses",
+                "patterns":[
+                    "What are the Courses in MS ACS Course?","Provide information about the MS ACS Program's course selection.","What are the study areas covered in the MS ACS Program?",
+                    "Which courses can I take as part of the MS ACS Program?","Share the MS ACS Program course catalog with me.","I'd like to know the course offerings in the MS ACS Program.",
+                    "Give me details about the academic courses in the MS ACS Program.","What's the course lineup for the MS ACS Program?", "Tell me about the subjects included in the MS ACS Program.",
+                    "What courses are part of the MS ACS Program curriculum?","Can you provide a list of the courses available in the MS ACS Program?","what are the courses in MS ACS Course?",
+                    "course in ACS course","courses in ms acs course","courses in ms acs","courses in acs","what are the courses","courses available in ms acs?","What courses are included in the MS ACS program?","List the courses offered in the MS ACS course.","Can you provide a rundown of the courses within the MS ACS program?",
+                    "I'd like to know the curriculum for the MS ACS course.","Please share the course catalog for the MS ACS program."
+                ],
+                "responses":[
+                    "Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing: iOS\t(OR) Mobile Computing: Android, Application Design: Patterns And Frameworks, CS Graduate Directed Project I, CS Graduate Directed Project II,  Big Data, Web Mining, Analysis of Algorithms, Machine Learning, Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
+                    "The MS-ACS program provides a range of courses, including Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can explore subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and delve into emerging fields such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm ",
+                    "The MS-ACS program offers a comprehensive range of courses, encompassing Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, Mobile Computing (iOS or Android), Application Design using Patterns And Frameworks, CS Graduate Directed Projects I and II, Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Mining \n You can refer this link to know more about courses in ACS  https://www.nwmissouri.edu/csis/msacs/courses.htm  ",
+                    "The MS-ACS program offers a variety of courses, such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). In addition, students have the opportunity to explore subjects like Application Design using Patterns And Frameworks, participate in CS Graduate Directed Projects I and II, and delve into emerging fields including Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. For more details about these courses, you can visit this link: https://www.nwmissouri.edu/csis/msacs/courses.htm.",
+                    "The MS-ACS curriculum includes a diverse range of courses, covering areas such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Additionally, students can choose to delve into subjects like Application Design using Patterns And Frameworks, engage in CS Graduate Directed Projects I and II, and explore emerging fields like Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. For a comprehensive list of these courses, you can refer to the following link: https://www.nwmissouri.edu/csis/msacs/courses.htm",
+                    "The MS-ACS program boasts a diverse course selection, encompassing areas such as Object-Oriented Programming, Advanced Topics in Database Systems, Developing Web Applications and Services, Project Management in Business and Technology, and Mobile Computing (iOS or Android). Moreover, students can opt to study subjects like Application Design using Patterns And Frameworks, participate in CS Graduate Directed Projects I and II, and explore emerging domains such as Big Data, Web Mining, Analysis of Algorithms, Machine Learning, and Data Visualization. To gain a more detailed understanding of these courses, you can visit the following link: https://www.nwmissouri.edu/csis/msacs/courses.htm."
+                    
+                ]
+            },
+            {
+                "tag":"Electives",
+                "patterns":[
+                    "Are there any specialized electives for MS-ACS students?"," program's elective curriculum.","I'm interested in electives for MS-ACS; could you share the options?",
+                    "What's the range of elective courses available in MS-ACS?","Which elective courses can I select as part of the MS-ACS program?","Can you provide information on the electives students can take in MS-ACS?",
+                    "What are the choices for electives in the MS-ACS program?","Tell me about the elective subjects offered for MS-ACS students.","Could you list the elective options within the MS-ACS program?","What elective courses are available in the MS-ACS program?",
+                    "What can you tell me about elective courses in the MS ACS Program?","Could you inform me about the MS ACS Program's elective selection?","share the elective course offerings within the MS "," Program's elective courses.",
+                    "What are the elective subjects I can take in the MS ACS Program?","Tell me about the choices for electives in the MS ACS Program.","What elective options are available in the MS ACS Program?","Can you provide information about the elective courses in the MS ACS Program?",
+                    "Electives","electives in acs course","choices for electives in ms acs program?","what are the choices for Electives in MS ACS Program?","share the options for electives in ms acs","What elective course are available in MS ACS Program","elective courses that i can take part of ",
+                    "which elective courses can i select as part of the ms acs program","range of electives courses available in ","Elective course"
+                ],
+                "responses":[
+                    "The MS-ACS program provides a selection of electives, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Additionally, if a student chooses Mobile Computing: iOS as their required course, they have the option to take Mobile Computing: Android as an elective.                                                                Note: Elective courses are subjected to change every semester.",
+            "In the MS-ACS program, students can choose from various electives like Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Furthermore, if a student selects Mobile Computing: iOS as their core course, they can also opt for Mobile Computing: Android as an elective.                                                                            Note: Elective courses are subjected to change every semester.",
+            "Electives in the MS-ACS program encompass Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. For students who decide on Mobile Computing: iOS as their mandatory course, Mobile Computing: Android becomes an elective choice as well.                                                                                                                                Note: Elective courses are subjected to change every semester.",
+            "The MS-ACS program offers a range of electives, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Notably, students who pick Mobile Computing: iOS as their required course have the opportunity to take Mobile Computing: Android as an elective.                                                                                                Note: Elective courses are subjected to change every semester.",
+            "Within the MS-ACS program, you'll find elective options like Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. It's worth mentioning that students who enroll in Mobile Computing: iOS as their core course can also consider Mobile Computing: Android as an elective.                                                                           Note: Elective courses are subjected to change every semester.",
+            "The MS-ACS program offers a variety of elective courses, including Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. If a student opts for Mobile Computing: iOS as their core course, they have the flexibility to choose Mobile Computing: Android as an elective as well.                                                                                     Note: Elective courses are subjected to change every semester.",
+            "In the MS-ACS program, students can select from a range of electives such as Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Additionally, those who take Mobile Computing: iOS as their required course may also consider Mobile Computing: Android as an elective.                                                                            Note: Elective courses are subjected to change every semester.",
+            "Elective choices in the MS-ACS program encompass Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Notably, students who decide on Mobile Computing: iOS as their mandatory course can extend their expertise by selecting Mobile Computing: Android as an elective.                                                                                    Note: Elective courses are subjected to change every semester.",
+            "Within the MS-ACS program, students have the opportunity to explore elective courses like Analysis of Algorithms, Big Data, Data Visualization, Web Mining, and Machine Learning. Furthermore, if a student's primary choice is Mobile Computing: iOS, they can complement their studies with Mobile Computing: Android as an  elective.                                                                                                                          Note: Elective courses are subjected to change every semester."
+
+                ]
+            },
+            {
+                "tag":"Prerequisites",
+                "patterns":[
+                    "Are there any prerequisite academic or professional qualifications expected for the ACS program?","Could you outline the prerequisite requirements for joining the ACS course?","What are the prerequisite background qualifications for ACS course admission?","Can you explain the academic or professional prerequisites for the ACS course?",
+                    "Are there specific prerequisite qualifications required for entry into the ACS program?","What are the prerequisite conditions for eligibility in the ACS course?","Could you provide information about the admission prerequisites for the ACS program?","What are the prerequisite qualifications or criteria for enrolling in the ACS course?",
+                    "Could you detail the prerequisites for enrolling in the ACS course?","What are the admission requirements or prerequisites for joining the ACS course?","What are the prerequisites for enrolling in the ACS course?","prerequisites","prerequisites required for enrolling in ACS program","what are the prerequisites"
+                            ],
+                "responses":[
+                    "If not completed as an undergraduate, You have to take \"Database Systems\" Course.",
+                    "If you haven't completed a \"Database Systems\" course during your undergraduate studies, it's a requirement for enrollment.",
+                    "If you did not cover Database Systems as an undergraduate, you must include it in your coursework.",
+                    "For those who haven't fulfilled this requirement during their undergraduate studies, enrolling in a Database Systems course is mandatory.",
+                    "A Database Systems course is mandatory if you didn't complete it as an undergraduate.",
+                    "If you didn't take Database Systems as an undergrad, you'll need to include it in your course load.",
+                    "Completion of a Database Systems course is necessary if it wasn't fulfilled during your undergraduate studies.",
+                    "If you haven't already taken a Database Systems course during your undergraduate program, it's a prerequisite for enrollment."        
+                ]
+            },
+            {
+                "tag":"RequiredGPA",
+                "patterns":[
+                    "What is the required GPA ?","Required GPA for admission in ACS?","What GPA is considered acceptable for gaining admission to an ACS Course?",
+                    "Is there a specific GPA requirement for entry into an ACS Course?","What is the minimum GPA required for admission to an ACS Course?","Is there a specific GPA cutoff for gaining admission to the ACS Course?",
+                    "What is the GPA threshold for enrolling in the ACS Course?","What is the required GPA to get admission in ACS Course?","The ACS Course admission necessitates a minimum GPA.","Attaining admission to the ACS Course mandates a specific GPA threshold.","A GPA meeting certain criteria is required for enrollment in the ACS Course","To gain admission to the ACS Course, a prescribed GPA is necessary.",
+                    "Meeting the GPA requirement is essential for entrance into the ACS Course.","The ACS Course admission is contingent upon achieving a specified GPA."
+                ],
+                "responses":[
+                    "The GPA should be above or Equal to 3.0","A GPA of 3.0 and above is necessary.","Your GPA should meet or exceed 3.0.","You must have a GPA of 3.0 or greater.",
+                    "To be eligible, your GPA needs to be 3.0 or more.","The GPA must meet or exceed 3.0.","A GPA of 3.0 or greater is expected.","Maintaining a GPA of 3.0 or above is necessary.",
+                    "Your GPA should be at least 3.0.","A minimum GPA of 3.0 is required.","A GPA equal to or surpassing 3.0 is required.","To qualify, the GPA should be 3.0 or higher.","An GPA of 3.0 or greater is necessary.",
+                    "The minimum GPA requirement is 3.0 or above.","The GPA threshold is set at 3.0 or higher."
+                ]
+            },
+            
+            {
+                "tag":"DeadlinesForSpringIntake",
+                "patterns":[
+                    "What's the last day to apply for the Spring semester?","By when should I have my Spring Intake application completed?","What's the cutoff date for Spring Intake applications?","What is the due date for applying to the Spring Intake?","When is the Spring Intake application deadline?","What is the Deadline for Spring Intake?",
+                    "What's the closing date for Spring semester applications?","By what date must I submit my application for the Spring semester?","When does the Spring semester application period end?","Could you please tell me the final day to apply for the Spring semester?","When do Spring semester applications close?","When is the last opportunity to apply for the Spring semester?",
+                    "When do Spring semester applications need to be in by?"
+                ],
+                "responses":[
+                    "The last day to apply for spring semester is November 1.","The last day to appply for spring semester is first day of November.","11/01","The last day to appply for spring semester is November first.","The start of November is last day to apply for spring semester.","The beginning of November  is last day to appply for spring semester.","One November is last day to appply for spring semester.","01/11 (in some date formats) is last day to appply for spring semester.","Nov 1 is last day to appply for spring semester.","1st of November is last day to appply for spring semester.",
+                    "Spring semester applications must be submitted by November 1.","The final date to apply for the Spring semester is November 1.","The deadline for Spring semester applications falls on November 1.","You have until November 1 to submit your Spring semester application.","The cutoff for Spring semester applications is November 1.","Remember to apply for the Spring semester by November 1.","The application window for the Spring semester closes on November 1.","November 1 marks the end of Spring semester application submissions.","Don't forget, the Spring semester application period ends on November 1."
+                ]
+            },
+            {
+                "tag":"DeadlinesForFallIntake",
+                "patterns":[
+                    "What's the last day to apply for the Fall semester?","By when should I have my Fall Intake application completed?","What's the cutoff date for fall Intake applications?","What is the due date for applying to the fall Intake?","When is the fall Intake application deadline?","What is the Deadline for fall Intake?",
+                    "When is the application deadline for the Fall semester?","What is the final date for submitting applications for the Fall semester?","When is the last day I can apply for the Fall semester?","When does the application period end for the Fall semester?","What is the application cutoff date for the Fall semester?"
+                ],
+                "responses":[
+                    "The last day to apply for fall semester is June 15.","The last day to apply for fall semester is  15th of June.","The fall semester application deadline is June 15.","June 15 is the application cutoff for the fall semester.","For the fall semester, the final application date is June 15.","You must complete your fall semester application by June 15.",
+                    "The deadline for fall semester applications is June 15.","June 15 marks the last day to apply for the fall semester.","The application period for the fall semester ends on June 15.","June 15 is the closing date for fall semester applications.","To be considered for the fall semester, your application should be submitted by June 15","The fall semester application process concludes on June 15."
+                    
+                ]
+            },
+            {
+                "tag":"DeadlinesForSummerIntake",
+                "patterns":[
+                    "What's the last day to apply for the Summer semester?","By when should I have my summer Intake application completed?","What's the cutoff date for summer Intake applications?","What is the due date for applying to the summer Intake?","When is the summer Intake application deadline?","What is the Deadline for summer Intake?",
+                    "When is the application deadline for the Summer semester?","What's the closing date for Summer semester applications?","By what date must I submit my application for the Summer semester?","When does the Summer semester application period end?","Could you please tell me the final day to apply for the Summer semester?","When do Summer semester applications close?","When is the last opportunity to apply for the Summer semester?","When do Summer semester applications need to be in by?","What's the deadline for submitting Summer semester applications?"
+                ],
+                "responses":[
+                    "The last day to apply for Summer semester is March 1.","The last day to apply for summer semester is first day of March.","03/01","The last day to apply for summer semester is March first.","The start of March is last day to apply for summer semester.","The beginning of March  is last day to apply for March semester.","One March is last day to apply for summer semester.","01/03 (in some date formats) is last day to apply for Summer semester.","March 1 is last day to apply for fall semester.","1st of March is last day to apply for Summer semester.",
+                    "March 1 is the final day to apply for the Summer semester.","The deadline for Summer semester applications falls on March 1.","You have until March 1 to submit your application for the Summer semester.","The last date to apply for the Summer semester is March 1.","Summer semester applications must be submitted by March 1.","Remember to apply for the Summer semester by March 1.","March 1 is the cutoff for Summer semester applications.","The application window for the Summer semester closes on March 1.","Don't forget, the Summer semester application period ends on March 1.","The final day for Summer semester application submissions is March 1."
+                ]
+            },
+            {
+                "tag":"OnCampusJobs",
+                "patterns":[
+                    "Can you tell me about the employment possibilities for students on campus?",
+                    "Are there any job openings for students within the university?",
+                    "What are the available job positions for students who want to work on campus?",
+                    "What on-campus job options are there for students?",
+                    "What are the job opportunities available for students in on campus?",
+                    "Are there any student employment services or resources on campus? ",
+                    "Can you tell me about work-study programs for students at our campus?",
+                    "Do you have any information on student employment initiatives on campus?",
+                    "Are there specific departments or offices that typically hire student employees?",
+                    "Are there any specialized student employment programs or positions available at our university?",
+                    "Are there any student job fairs or career events at our university?",
+                    "Can you tell me about the availability of work-study positions for students at our university?                    "
+                ],
+                "responses":[
+                    "Yes, You can find the jobs in Campus Dining, Graduate Assistantship/ Teaching Assistantship, Parking Assistant, Librarian, Shuttle Drivers",
+                    "Certainly, there are job openings available in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and Shuttle Driving, among other options.",
+                    "Indeed, you'll discover employment opportunities in areas like Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driving.",
+                    "You'll find job prospects within Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other possibilities.",
+                    "Students can explore job openings in Campus Dining, Graduate Assistantships, Teaching Assistantships, Parking Assistance, Library roles, and as Shuttle Drivers, along with various other potential positions.",
+                    "On-campus job prospects encompass roles in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other avenues for student employment.",
+                    "Opportunities for employment can be found in Campus Dining, Graduate Assistantships and Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other potential options.",
+                    "Employment options for students on campus encompass positions in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library roles, and Shuttle Driver positions, among numerous other opportunities.",
+                    "Within the university, students can consider roles in Campus Dining, Graduate Assistantships, Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, among other potential employment paths.",
+                    "Students have the opportunity to explore employment possibilities in Campus Dining, Graduate Assistantships/Teaching Assistantships, Parking Assistance, Library positions, and as Shuttle Drivers, in addition to other potential avenues."
+                ]
+            },
+            {
+                "tag":"JobPlacementRate",
+                "patterns":[
+                    "What is the job placement rate for graduates?","What percentage of your graduates find jobs within a certain period after graduation?","What's the rate of successful job placements among your university's graduates?","Could you provide data on the employment status of students shortly after they graduate?","What can you tell me about the job prospects for recent graduates of your institution?"
+                ],
+                "responses":[
+                    "Job placement rate for graduates is 91%",
+                    "Ninety-one percent of graduates secure employment","Out of all our graduates, 91% find jobs.",
+                    "Out of all our graduates, 91% find jobs.",
+                    "The impressive job placement rate of 91% for program graduates underscores the institution's track record in helping students embark on successful careers shortly after completing their studies.",
+                    "With a job placement rate of 91%, the institution demonstrates its commitment to preparing students for the job market, as the overwhelming majority of its alumni secure employment after graduation.",
+                    "A significant achievement, the program maintains a job placement rate of 91%, signifying that nearly all of its recent graduates have successfully transitioned into the workforce.",
+                    "The program boasts a job placement rate of 91%, meaning that 91% of its recent graduates have found employment within a specified timeframe after completing their studies."
+
+                ]
+            },
+            {
+                "tag":"CS/IS International Graduate Achievement Scholarship",
+                "patterns":[
+                    "What is the CS/IS International Graduate Achievement Scholarship?","What does the CS/IS International Graduate Achievement Scholarship entail?","Could you provide information about the CS/IS International Graduate Achievement Scholarship?","I'd like to learn more about the CS/IS International Graduate Achievement Scholarship. Can you explain it?","Can you describe the CS/IS International Graduate Achievement Scholarship?","What details can you share regarding the CS/IS International Graduate Achievement Scholarship?","Could you shed some light on the nature of the CS/IS International Graduate Achievement Scholarship?"
+
+                ],
+                "responses":[
+                    "To be eligible for the CS/IS International Graduate Achievement Scholarship, applicants must have a high level of achievement in their academic background and meet requirements for full admission to an on-campus graduate program in the School of Computer Science and Information Systems. Students in other graduate programs, online programs, or students conditionally admitted to the graduate school are not eligible. With this award you will receive $500 toward your first semester tuition. The scholarship is a one-time award and is automatic. No application is needed. you can refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm ",
+                    "Eligibility for the CS/IS International Graduate Achievement Scholarship requires strong academic performance and full admission to an on-campus graduate program within the School of Computer Science and Information Systems. It's exclusive to on-campus students, not applicable to those in other graduate programs or online courses, and unavailable to conditionally admitted students. Successful applicants receive a one-time $500 scholarship for their first semester tuition. No separate application is needed; eligibility is automatic based on academic achievements and program admission. Visit the university's financial aid website for more information and explore additional financial aid opportunities.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm.",
+                    "The CS/IS International Graduate Achievement Scholarship is available to students who have a strong academic background and meet the admission requirements for on-campus graduate programs in the School of Computer Science and Information Systems. It's not open to students in other programs, including online courses, or those conditionally admitted to the graduate school. Successful applicants will automatically receive a one-time award of $500 toward their first semester tuition. There is no separate application process required. For further details and other financial aid options, you can visit the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm.",
+                    "The CS/IS International Graduate Achievement Scholarship is designed for students who excel academically and secure full admission to on-campus graduate programs in the School of Computer Science and Information Systems. Importantly, this scholarship isn't open to students pursuing different graduate programs, online courses, or those with conditional admission. Recipients will automatically receive a one-time $500 scholarship toward their initial semester's tuition, and no additional application is required. To explore further details and alternative financial aid possibilities, you can visit the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm.",
+                    "The CS/IS International Graduate Achievement Scholarship is specifically for high-achieving students who have met the admission criteria for on-campus graduate programs in the School of Computer Science and Information Systems. This scholarship is not accessible to students in other graduate programs, online studies, or those with conditional admission. Successful applicants will receive an automatic one-time $500 scholarship applied to their first-semester tuition. There's no need for a separate application. For more information and to discover additional financial aid opportunities, you can refer to the university's financial aid website.Refer this link further https://www.nwmissouri.edu/finaid/aid/scholarships/index.htm."
+                ]
+                
+            },
+            {
+                "tag":"Student-Faculty Ratio",
+                "patterns":[
+                 "What is the student to faculty ratio in ACS?", "What is the current student-faculty ratio in ACS?","Can you provide me with the student-faculty ratio for ACS?", 
+                 "Is there a specific student-to-faculty ratio for the ACS course?","What is the average class size at ACS in terms of students per faculty member?",
+                 "What is the typical number of students per professor in ACS classrooms?","Can you tell me about the instructor-student ratios for ACS classes?"
+
+                ],
+                "responses":[
+                    "The student-faculty ratio at this university is 22:1 in ACS.","In ACS, there are 22 students for every faculty member.",
+                    "This University maintains a 22:1 student-to-faculty ratio in ACS.","The student-faculty ratio in ACS stands at 22:1.","In ACS, there is an average of 22 students per faculty member." ,
+                    "The university maintains a student-faculty ratio of 22 to 1 in the ACS department.","At this university, the student-faculty ratio in ACS is 22 students per faculty member.","In the ACS department, the student-to-faculty ratio stands at 22:1."
+                ]
+
+                
+                
+            },
+            {
+                "tag":"Admission Crietria",
+                "patterns":[
+                    "What are the minimum GPA requirements for admission to the master's programs at Northwest Missouri State University?",
+
+                    "Do the master's programs at Northwest Missouri State University require standardized test scores, such as the GRE or GMAT? If so, what are the minimum score requirements?",
+                    
+                    "Can you explain the English language proficiency requirements for international applicants?",
+                    
+                    "What types of documents are needed for the application, such as transcripts, letters of recommendation, and a statement of purpose?",
+                    
+                    "Are there specific prerequisites or academic qualifications required for each master's program? If so, what are they?"
+                    
+                ],
+                "responses":[
+                    " Admission criteria, requirements, and policies can change over time, and they may vary between  programs. Therefore, I recommend visiting the official website of Northwest Missouri State University, Please find the details in the given Link- https://www.nwmissouri.edu/csis/msacs/apply/index.htm",
+                    "As admission criteria, requirements, and policies can evolve and vary among programs, I advise you to check the official website of Northwest Missouri State University for the most accurate and program-specific details. You can find the information you're looking for by visiting this link: https://www.nwmissouri.edu/csis/msacs/apply/index.htm",
+                    "It's important to note that admission criteria, requirements, and policies can change and may differ between programs at Northwest Missouri State University. For the most current and program-specific information, I recommend visiting the official university website. You can access the details you're seeking by clicking on this link: https://www.nwmissouri.edu/csis/msacs/apply/index.htm.",
+                    "It's important to understand that admission criteria, requirements, and policies can undergo changes and may vary between programs at Northwest Missouri State University. To obtain the most current and program-specific details, I recommend visiting the official university website. You can find the information you're seeking by clicking on the following link: https://www.nwmissouri.edu/csis/msacs/apply/index.htm."
+
+
+                ]
+
+                
+                
+            },
+            {
+                "tag":"Wellness Center",
+                 "patterns":[
+                    "Is there any Health Center in Northwest?","Can you provide details about the Wellness Center?","Health Center",
+                    "Could you please outline the information about health Center at Northwest ?","Can you provide me with information on health-center",
+                    "Provide insights into the health services offered at the Northwest location.","What details can you give me about the health center in the Northwest area?","Tell me about the health facility at Northwest. What services do they offer?",
+                    "I'm looking for information on healthcare services in the Northwest. Can you provide an overview of the health center?","What can you tell me about the health center at Northwest?"
+                    
+
+                 ],
+                 "responses":[
+                    "Wellness Services takes a holistic approach to health, and believes it involves a balance between mind, body, and spirit.  We provide services that contribute to all eight dimensions of wellness - Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial.",
+                    "In our approach to wellness at Wellness Services, we embrace a holistic philosophy that recognizes the intricate interplay between mind, body, and spirit. Through a diverse range of services, we strive to nurture each individual in all eight dimensions of wellness: Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial.",
+                    "At Wellness Services, our commitment to holistic well-being underscores the integration of mind, body, and spirit. Our array of services is designed to enrich individuals across the spectrum of eight wellness dimensions, including Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial.",
+                    "Our Wellness Services adopts a holistic perspective, acknowledging the interconnectedness of mind, body, and spirit. We are dedicated to fostering well-being across all facets of life, encompassing the eight dimensions of wellness: Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial",
+                    "At Wellness Services, we adopt a holistic paradigm that emphasizes the interconnectedness of mind, body, and spirit. Our services are tailored to address the complete spectrum of well-being, encompassing the eight dimensions: Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial",
+                    "In our commitment to holistic health, Wellness Services acknowledges the synergy between mind, body, and spirit. Our services are crafted to foster well-being across all facets of life, encompassing the comprehensive spectrum of eight wellness dimensions: Physical, Social, Emotional, Environmental, Spiritual, Intellectual, Occupational, and Financial."
+
+                 ]
+            },
+            {
+                "tag":"Standardized test score requirements",
+                 "patterns":[
+                    "What are the standardized test score requirements for ACS?","Can you provide details about the required test scores for ACS?","Are there minimum test score requirements for ACS?","What weight do test scores carry in the ACS admissions decision?",
+                    "Could you please outline the test score requirements for ACS?","Can you provide me with information about the minimum test score requirements for ACS?","What are the score expectations for prospective students at ACS? ","What test score thresholds do applicants need to meet for ACS?","What is the benchmark for test scores that applicants must achieve for ACS?",
+                    "Can you clarify the test score requirements for ACS applicants?","What are the entry-level test score expectations for ACS candidates?","Are there specific score cutoffs for admissions at ACS?"
+                    
+
+                 ],
+                 "responses":[
+                    "Students enrolling in the ACS course at this university must meet the following minimum English proficiency exam score requirements:Duolingo: 105-110/160, IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is required for admission.",      
+                    "Admission into the ACS course at this university necessitates prospective students to meet the subsequent minimum requirements for English proficiency exam scores: Duolingo: 105-110/160,IELTS: 6.0-6.5/10,TOEFL: 71-79/120. Additionally, a GRE score of 290/360 is obligatory.",
+                    "To be admitted to the ACS course at this university, prospective students should adhere to the subsequent minimum English proficiency exam score standards: Duolingo: 105-110 out of 160,IELTS: 6.0-6.5 out of 10,TOEFL: 71-79 out of 120.In addition, a GRE score of 290 out of 360 is obligatory for admission."
+
+                 ]
+            },
+            {
+                "tag":"specialized tools for coursework? ",
+                 "patterns":[
+                    "Can I access specialized software or tools for coursework? ","Is it possible for me to use specialized software or tools required for my coursework?","Do I have access to the specific software and tools needed to complete my coursework?",
+                    "Can I obtain the necessary software and tools for my coursework?","Will I be provided with the software and tools that are vital for my studies?","Am I allowed to employ specialized software or tools for my coursework","Are there any resources available for students to use specialized software or tools in their coursework?"
+                    
+
+                 ],
+                 "responses":[
+                    "Students can access to specialized software tools such as integrated development environments (IDEs) for programming languages",      
+                    "The university facilitates students' access to specialized software tools, including integrated development environments (IDEs) for programming languages.",
+                    "Students are given the means to work with specialized software tools, and this includes integrated development environments (IDEs) for programming languages",
+                    "Students are able to utilize specialized software tools, including Integrated Development Environments (IDEs) for programming languages","Students are granted access to specialized software tools, including programming language Integrated Development Environments (IDEs).",
+                    "Access to tailored software tools such as integrated development environments (IDEs) for programming languages is available to students.",
+                    "Students have the advantage of accessing specialized software tools, particularly integrated development environments (IDEs) customized for diverse programming languages.",
+                    "Students possess the ability to use specialized software tools, notably integrated development environments (IDEs), designed for various programming languages.",
+                    "Students, through their educational resources, have the opportunity to utilize specialized software tools like integrated development environments (IDEs), designed specifically for various programming languages.",
+                    "Specialized software tools like integrated development environments (IDEs) for programming languages are accessible to students.",
+                    "The provision of specialized software tools, such as programming language-oriented integrated development environments (IDEs), supports students' programming education and skill development."
+                 ]
+            },       
+            {
+                "tag":"College fees per credit in ACS",
+                "patterns":[
+                 "What is the college fees per credit for ACS students in this university", "The per-credit cost for the ACS program at this university?","What is the university's ACS program charges fees on a per-credit basis?", 
+                 "What is the cost of each credit for the ACS program at this institution.","How much is  the college fees per credit for the ACS program in this university.","What is the cost per credit for the ACS program at this university?",
+                 "Could you provide information regarding the per-credit fee for the ACS program at this university?","May I inquire about the cost per credit for the ACS program at this university?",
+                 "What's the price per credit for the ACS program at this university?","Could you please specify the per-credit tuition cost for the ACS program at this university?","I'm interested in knowing the per-credit tuition rate for the ACS program at this university.",
+                 "What's the per-credit charge for the ACS program at this university?"
+                ],
+                "responses":[
+                    "College fees per credit for ACS in this university is $535.30.","Tuition for a single credit in the ACS program at this university is $535.30.",
+                    "One credit hour in the ACS program at this university costs $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.","The ACS program's per-credit tuition rate at this university is $535.30.",
+                    "The fee for one credit in the ACS program at this university is $535.30."	,"To enroll in the Associate in Computer Science program, you will need to pay $535.30 for each credit.","Students are required to budget $535.30 for each credit they take in the ACS program.",
+                    "The cost of pursuing one credit in the ACS program stands at $535.30.","To enroll in one credit of the ACS program, you'll need to pay $535.30.","The ACS program's credit rate stands at $535.30.","You'll be billed $535.30 for one credit in the ACS program.",
+                    "Each credit within the ACS program has a price tag of $535.30.","It costs $535.30 for each credit in the ACS program."
+
+                ]
+                
+            },
+            {
+                
+                "tag":"Rankings and Reputation",
+                "patterns":[
+	                "Can you share information about the university's rankings and reputation?",
+	                "What is the university's current ranking and reputation?",
+	                "Tell me about the academic standing and reputation of the university.",
+	                "I'd like to know about the university's reputation. Can you provide details about that?",
+                    "Please give me insights into the university's standing in the academic community",
+                    "How is the university ranked in comparison to other institutions?"
+                ],
+                "responses":[
+	                "The Northwest Missouri State University is ranked: #104 out of 167 Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. #1721 by Uni Rank .Northwest Missouri State University is a public institution that was founded in 1905.",
+                    "Northwest Missouri State University, a public institution established in 1905, is positioned at #104 among Regional Universities Midwest in the 2022-2023 edition of U.S. News & World Report's Best Colleges. Additionally, it holds the #1721 rank according to UniRank.",
+                    "Founded in 1905, Northwest Missouri State University is a public institution. It has been recognized in the 2022-2023 U.S. News & World Report's Best Colleges, securing the #104 position among Regional Universities in the Midwest. UniRank also ranks the university at #1721.",
+                    "Established in 1905, Northwest Missouri State University is a public institution that ranks at #104 among Regional Universities in the Midwest according to the 2022-2023 U.S. News & World Report's Best Colleges. UniRank also positions it at #1721.",
+                    "Having been founded in 1905, Northwest Missouri State University is a public university ranked at #104 among Regional Universities in the Midwest as revealed by the 2022-2023 U.S. News & World Report's Best Colleges. UniRank also lists its position at #1721.",
+                    "An institution of public status, Northwest Missouri State University, which originated in 1905, secures the #104 spot among Regional Universities in the Midwest in the 2022-2023 U.S. News & World Report's Best Colleges rankings. Additionally, UniRank positions it at #1721.",
+                   "With its establishment dating back to 1905, Northwest Missouri State University is a public institution placed at #104 among Regional Universities in the Midwest as per the 2022-2023 U.S. News & World Report's Best Colleges rankings. UniRank also recognizes the university at #1721.",
+                   "Northwest Missouri State University, a public institution founded in 1905, holds the #104 position among Regional Universities in the Midwest for the 2022-2023 U.S. News & World Report's Best Colleges rankings, while also being ranked at #1721 by UniRank."
+	            ]
+    
+            },
+            {
+                "tag":"Academic Transcripts",
+                "patterns":[
+                    "How do I check my academic transcripts",
+                    "Where can I find my transcripts?",
+                    "What is the process for viewing my academic transcripts?",
+                    "Where do I go to review my academic transcripts?",
+                    "How do I access my semester grades?",
+                    "What steps should I follow to obtain my academic transcript?"
+
+                ],
+                "responses":[
+                    "As a current student you need to login to CATPAWS account and follow the below steps for accessing academic transcripts:1.Click on the 'Student' tab. 2.Select 'Student Records'. 3.Select 'Academic Transcript'.4.Select 'All Levels' and 'Web' type.5.Click 'Submit'. View, screenshot, print from your browser, or copy/paste all data into a Microsoft Excel file.",
+                    "To view your academic transcripts, log in to your CATPAWS account and follow these steps: Click on the 'Student' tab, select 'Student Records,' then 'Academic Transcript.' After that, choose 'All Levels' and 'Web' type, and click 'Submit.' You can view, take a screenshot, print from your browser, or copy/paste all data into a Microsoft Excel file.",
+                    "You can access your academic transcripts by logging in to CATPAWS. Start by clicking on the 'Student' tab, followed by 'Student Records,' and then select 'Academic Transcript.' Ensure you choose 'All Levels' and 'Web' type, and finally, click 'Submit.' You can then view, screenshot, print, or copy/paste all data into a Microsoft Excel file.",
+                    "To retrieve your academic transcripts, the process begins with logging into your CATPAWS account. Click the 'Student' tab, then proceed to 'Student Records,' and select 'Academic Transcript.' Make sure to choose 'All Levels' and 'Web' type, and then click 'Submit.' Afterward, you have the flexibility to view, capture a screenshot, print, or copy/paste all data into a Microsoft Excel file.",
+                    "Accessing your academic transcripts is straightforward via CATPAWS. Once you've logged in, go to the 'Student' tab, access 'Student Records,' and select 'Academic Transcript.' Remember to opt for 'All Levels' and 'Web' type, and finish by clicking 'Submit.' You can then review, take a screenshot, print, or copy/paste all the data into a Microsoft Excel file",
+                    "For accessing your academic transcripts, begin by logging in to your CATPAWS account. Click on the 'Student' tab, proceed to 'Student Records,' and then select 'Academic Transcript.' Be sure to choose 'All Levels' and 'Web' type, and lastly, click 'Submit.' You can then choose to view the transcripts, take a screenshot, print them directly from your browser, or copy/paste the data into a Microsoft Excel file.",
+                    "Accessing your academic transcripts is a breeze with CATPAWS. Log in, then click on the 'Student' tab, and go to 'Student Records.' From there, select 'Academic Transcript.' Remember to pick 'All Levels' and 'Web' type, and click 'Submit.' You'll then have the option to view your transcripts, capture screenshots, print them from your browser, or copy/paste all data into a Microsoft Excel file."
+
+                ]
+            } ,
+            {
+                "tag":"Duration of MS-ACS",
+                "patterns":[
+                   "What is the duration of the MS ACS program?","What is the typical length of the MS ACS program?","Could you provide information on the expected duration of the MS ACS program?",
+                   "How long does the MS ACS program usually take to complete?","What is the anticipated time frame for completing the MS ACS program?","Could you clarify the duration requirements for the MS ACS program?",
+                   "What is the standard time commitment for the MS ACS program?","How much time is typically needed to finish the MS ACS program?","Can you outline the expected duration of studies for the MS ACS program?"
+
+                ],
+                "responses":[
+                    "The MS ACS program is designed to be completed within a 16-month timeframe.","Students can expect to finish the MS ACS program in a duration of 16 months.","The standard duration for the MS ACS program is 16 months.",
+                    "Completing the MS ACS program typically takes 16 months.","The MS ACS program is structured to be accomplished in 16 months.","A 16-month timeframe is allotted for the MS ACS program.",
+                    "The MS ACS program is expected to be completed in 16 months.","The MS ACS program has a duration of 16 months."
+
+                ]
+            }     
+            
+            
+
+]
+
+}
+

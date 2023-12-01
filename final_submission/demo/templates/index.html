@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#feedbackForm').hide(); // Hide the form initially
+
+            $('#feedbackButton').click(function() {
+                $('#feedbackForm').slideToggle(); // Toggle the visibility of the form on button click
+            });
+        });
+
+        function sendMessage() {
+    var message = $("#messageInput").val();
+    $.post("/ask", {messageText: message}, function(data, status) {
+        $("#chatbox").append("<div>You: " + message + "</div><div>Bot: " + data.answer + "</div>");
+        $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight); // Scroll to the bottom
+        $("#messageInput").val('');
+    });
+}
+
+
+        function submitFeedback(){
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var feedback = $("#feedback").val();
+            $.post("/submit_feedback", {name: name, email: email, feedback: feedback}, function(data, status){
+                // You can add more response handling here
+                alert("Feedback submitted successfully!");
+                $('#feedbackForm').slideUp(); // Hide the form after submission
+                // Clear the feedback form fields
+                $("#name").val('');
+                $("#email").val('');
+                $("#feedback").val('');
+            });
+        }
+    </script>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.chatbot-container {
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+}
+.chat-header {
+    display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+}
+
+
+.chat-header .logo {
+    width: 50px; /* Adjust logo size as needed */
+    margin-right: 15px;
+}
+
+
+/* Style the chatbox */
+.chatbox {
+    width: 100%; /* Adjust the width as needed */
+    height: 300px; /* Set a fixed height */
+    border: 2px solid #007BFF; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px; /* Increase margin for better spacing */
+    font-family: Arial, sans-serif; /* Change the font as needed */
+}
+
+
+/* Style the chat input area */
+.chat-input-area {
+            display: flex;
+            align-items: center;
+        }
+
+        .chat-input-area input[type="text"] {
+            flex: 1;
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        .chat-input-area button.send-button {
+            padding: 5px 10px;
+        }
+
+.chat-input-container {
+    display: flex;
+    padding: 10px;
+    align-items:  center;
+}
+
+.chat-input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.chat-input-container button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chat-input-container button:hover {
+    background-color: #218838;
+}
+
+.feedback-button {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+ /* Style the feedback button */
+ .feedback-toggle {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+.feedback-button:hover {
+    background-color: #138496;
+}
+
+.feedback-form {
+    display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            z-index: 1;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-form button {
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #e0a800;
+}
+
+    </style>
+</head>
+<body>
+    <div class="chatbot-container">
+        <header class="chat-header">
+            <!--Add a logo image-->
+            
+            <h1>MS - ACS Chatbot</h1>
+        </header>
+        <div id="chatbox" class="chatbox"></div>
+        <div class="chat-input-area">
+            <input type="text" id="messageInput" placeholder="Type your message here...">
+            <button onclick="sendMessage()" class="send-button">Send</button>
+        </div>
+        <button id="feedbackButton" class="feedback-toggle">Feedback</button>
+    </div>
+
+<!-- Feedback form -->
+<div id="feedbackForm" class="feedback-form">
+    <input type="text" id="name" placeholder="Enter your Name : "><br>
+    <input type="text" id="email" placeholder="Enter your Email : "><br>
+    <textarea id="feedback" placeholder="Please your Feedback here"></textarea><br>
+    <button onclick="submitFeedback()">Submit Feedback</button>
+</div>
+
+</body>
+</html>
