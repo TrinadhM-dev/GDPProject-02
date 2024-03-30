@@ -1,0 +1,10 @@
+Directions to run the code for testing
+The gen_ai() is written to continuously send the user prompt to LLM and get the response. This function is imported into user interface code , which run in localhost.
+
+Code:
+def genai_engine(query):
+# Run the chain with the query
+response = chain.run(input_documents=docsResult, question=query)
+return response
+
+print(genai_engine(query))
